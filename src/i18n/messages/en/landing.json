@@ -1,0 +1,30 @@
+{
+  "badge": "Metropolitan Public Witnessing",
+  "heroTitle": "Management Platform for Metropolitan Public Witnessing",
+  "heroSubtitle": "Efficient and organized coordination of cart shifts, strategic locations, enrollments, and APPAM volunteers.",
+  "actions": {
+    "login": "Log In",
+    "support": "Support Center",
+    "contact": "Contact Administration"
+  },
+  "features": {
+    "title": "Key Features",
+    "places": {
+      "title": "Locations & Carts",
+      "description": "Management of cart witnessing locations in high-traffic strategic points with authorized maps."
+    },
+    "scheduling": {
+      "title": "Shift Scheduling",
+      "description": "Flexible organization of time slots, rotating shifts, and quick attendance confirmation."
+    },
+    "volunteers": {
+      "title": "Volunteer Management",
+      "description": "Enrollment tracking, training progress monitoring, and approval status verification."
+    }
+  },
+  "supportBanner": {
+    "title": "Need assistance or technical support?",
+    "subtitle": "Access our FAQ or reach out to the coordination team to get your questions answered.",
+    "button": "Go to Support Center"
+  }
+}

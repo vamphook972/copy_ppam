@@ -1,0 +1,20 @@
+{
+  "title": "Bitácora de auditoría de {targetTitle}",
+  "loading": "Cargando registros de auditoría...",
+  "error": "Error al consultar el histórico de auditoría desde la base de datos. Por favor, intenta de nuevo más tarde.",
+  "empty": "No se han registrado eventos ni modificaciones sobre este recurso.",
+  "viewChanges": "Ver cambios en el payload",
+  "hideChanges": "Ocultar cambios",
+  "actorId": "Actor",
+  "timestamp": "Fecha y hora",
+  "event": "Evento",
+  "oldValue": "Valor anterior",
+  "newValue": "Valor nuevo",
+  "noNewChanges": "N/A (Nulo/Lectura)",
+  "noOldChanges": "N/A (Nulo/Creación)",
+  "entityType": "Tipo de entidad",
+  "action": "Acción",
+  "ipAddress": "Dirección IP",
+  "userAgent": "User Agent",
+  "closeModal": "Cerrar modal"
+}

@@ -1,0 +1,165 @@
+{
+  "title": "Shifts Monitoring Console",
+  "subtitle": "Real-time monitoring of volunteer coverage and traffic lights across preaching places.",
+  "primaryAction": "Create Shift",
+  "views": {
+    "daily": "Metropolitan Daily View",
+    "weekly": "Place Weekly View"
+  },
+  "monitoring": {
+    "cityFilter": "City",
+    "cityPlaceholder": "All cities",
+    "zoneFilter": "Zone",
+    "zonePlaceholder": "All zones",
+    "placeFilter": "PPAM Place",
+    "placePlaceholder": "All places",
+    "dateLabel": "Monitoring Date",
+    "today": "Today",
+    "previous": "Previous",
+    "next": "Next",
+    "weekRange": "Week: <bold>{fromDate}</bold> to <bold>{toDate}</bold>",
+    "previousWeek": "Previous Week",
+    "nextWeek": "Next Week",
+    "previousDay": "Previous Day",
+    "nextDay": "Next Day",
+    "assignedCount": "{assigned}/{max} Volunteers",
+    "legendTitle": "Coverage Status",
+    "legendRed": "🔴 Insufficient Coverage (< Min)",
+    "legendYellow": "🟡 Partial Coverage (≥ Min, < Max)",
+    "legendGreen": "🟢 Full Coverage (= Max)",
+    "legendGray": "⚪ Canceled / Inactive",
+    "emptyGrid": "No scheduled shifts found matching the selected criteria.",
+    "emptyDay": "Empty",
+    "selectPlaceForWeeklyView": "Please select a PPAM Place ID to view its weekly monitoring.",
+    "daysOfWeek": {
+      "0": "Sunday",
+      "1": "Monday",
+      "2": "Tuesday",
+      "3": "Wednesday",
+      "4": "Thursday",
+      "5": "Friday",
+      "6": "Saturday"
+    }
+  },
+  "new": {
+    "title": "Create Shift",
+    "subtitle": "Fill in the required fields to create a new shift."
+  },
+  "edit": {
+    "title": "Edit Shift",
+    "subtitle": "Update details of the selected shift."
+  },
+  "detail": {
+    "title": "Shift Details",
+    "subtitle": "Detailed shift information.",
+    "generalInfo": "General Information",
+    "name": "Name",
+    "status": "Status"
+  },
+  "table": {
+    "caption": "Shifts list",
+    "columns": {
+      "name": "Name",
+      "status": "Status",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At"
+    },
+    "actions": "Actions"
+  },
+  "form": {
+    "nameLabel": "Name",
+    "namePlaceholder": "E.g. Shift 1",
+    "statusLabel": "Status",
+    "statusActive": "Active",
+    "statusInactive": "Inactive",
+    "submitCreate": "Create Shift",
+    "submitEdit": "Save Changes"
+  },
+  "filters": {
+    "title": "Filters",
+    "description": "Refine the list to find shifts quickly.",
+    "searchLabel": "Search Shift",
+    "searchPlaceholder": "Search by name...",
+    "statusLabel": "Status",
+    "statusAll": "All",
+    "statusActive": "Active",
+    "statusInactive": "Inactive",
+    "apply": "Apply Filters",
+    "clear": "Clear Filters"
+  },
+  "actions": {
+    "create": "New Shift",
+    "edit": "Edit",
+    "delete": "Delete",
+    "view": "View details",
+    "createTitle": "Create Shift",
+    "createDescription": "Fill in required fields to create a new shift.",
+    "editTitle": "Edit Shift",
+    "editDescription": "Update details of selected shift.",
+    "deleteTitle": "Delete Shift",
+    "deleteDescription": "Are you sure you want to delete this shift?",
+    "deleteDescriptionFallback": "Are you sure you want to delete this item?",
+    "deleting": "Deleting..."
+  },
+  "states": {
+    "loading": "Loading shifts...",
+    "emptyTitle": "No shifts to display",
+    "emptyDescription": "Adjust filters or schedule a new shift.",
+    "errorTitle": "Error loading shifts",
+    "errorDescription": "An error occurred while loading shift information. Please try again."
+  },
+  "volunteers": {
+    "openDrawerButton": "Find Volunteer",
+    "drawerTitle": "Find Volunteer",
+    "searchLabel": "Name or Email",
+    "searchPlaceholder": "Search by name or email...",
+    "congregationLabel": "Congregation",
+    "allCongregations": "All congregations",
+    "searchCongregationPlaceholder": "Search congregation...",
+    "emptyCongregations": "No congregations found.",
+    "loading": "Loading volunteers...",
+    "empty": "No active volunteers found."
+  },
+  "assignment": {
+    "confirmTitle": "Confirm Shift Assignment",
+    "confirmButton": "Confirm Assignment",
+    "assigning": "Assigning...",
+    "cancel": "Cancel",
+    "emailLabel": "Email",
+    "placeLabel": "PPAM Place",
+    "dateLabel": "Date",
+    "limitWarningTitle": "⚠️ Shift Limit Exceeded",
+    "limitWarningDescription": "With this assignment, the volunteer will reach {target} shifts in the period, exceeding the maximum allowed limit of {max} shifts for their service privilege.",
+    "countsHeader": "Volunteer shift count:",
+    "dailyCount": "• Daily Shifts:",
+    "weeklyCount": "• Weekly Shifts:",
+    "monthlyCount": "• Monthly Shifts:",
+    "overLimitBadge": "🔴 {current} / {max} (Exceeded)",
+    "normalLimitBadge": "{current} / {max}",
+    "assignmentTypeLabel": "Assignment Type",
+    "singleTime": "Single time only (this date)",
+    "recurring": "Recurring Fixed Shift (weekly)",
+    "validityLabel": "Fixed Shift Validity",
+    "indefinite": "Permanent (Indefinite)",
+    "untilDate": "Until a specific end date",
+    "endDateLabel": "Validity End Date",
+    "loadingCounts": "Checking volunteer shift counts...",
+    "recurringConflictTitle": "Recurring Conflict Warning",
+    "recurringConflictMessage": "Recurring assignment saved. {count} date(s) were skipped due to schedule conflicts ({dates}).",
+    "recurringWarningSuffix": "By confirming, the system will register the recurring rule and automatically skip the conflicting dates.",
+    "directOverlapMessage": "The volunteer already has an active shift at {placeName} ({startTime} - {endTime}) that overlaps with this recurring shift.",
+    "insufficientTravelTimeMessage": "Requires at least 30 minutes of travel between different locations. They have a shift at {placeName} ({startTime} - {endTime}) that is too close to this schedule.",
+    "conflictAssignmentTitle": "Conflict of Schedule (Overlap)",
+    "insufficientTravelTimeTitle": "Insufficient Travel Time (Min 30 min)",
+    "recurringSuccess": "Volunteer assigned successfully.",
+    "errorDefault": "Could not complete the volunteer assignment."
+  },
+  "monitoringBadges": {
+    "recurringTooltip": "Recurring Fixed Shift (weekly)",
+    "singleTooltip": "Single time assignment",
+    "replacementTooltip": "Temporary replacement",
+    "autoTooltip": "Algorithmic auto-assignment",
+    "moreParticipants": "+{count} more",
+    "emptyParticipants": "No assigned volunteers"
+  }
+}

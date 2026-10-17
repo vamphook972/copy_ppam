@@ -1,0 +1,33 @@
+{
+  "main": "Main navigation",
+  "breadcrumb": "Breadcrumb",
+  "home": "Home",
+  "about": "About",
+  "contact": "Contact",
+  "support": "Support",
+  "users": "Users",
+  "roles": "Roles",
+  "geography": "Geography",
+  "cities": "Cities",
+  "zones": "Zones",
+  "places": "Places",
+  "circuits": "Circuits",
+  "congregations": "Congregations",
+  "enrollments": "Enrollments",
+  "meetings": "Meetings",
+  "training": "Training",
+  "turns": "Turns",
+  "settings": "Settings",
+  "tenant": "Regions",
+  "emailTemplates": "Email Templates",
+  "edit": "Edit",
+  "new": "New",
+  "create": "Create",
+  "detail": "Detail",
+  "details": "Details",
+  "footer": {
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "support": "Support"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "title": "Settings",
+  "subtitle": "Manage global parameters and system preferences.",
+  "primaryAction": "Save changes",
+  "filters": {
+    "title": "Settings filters",
+    "description": "Quickly find the setting you need to update.",
+    "searchLabel": "Search setting",
+    "searchPlaceholder": "Search by name or category",
+    "statusLabel": "Status",
+    "statusAll": "All",
+    "statusEnabled": "Enabled",
+    "statusDisabled": "Disabled"
+  },
+  "table": {
+    "caption": "Settings list",
+    "columns": {
+      "setting": "Setting",
+      "category": "Category",
+      "status": "Status",
+      "updatedAt": "Updated"
+    }
+  },
+  "states": {
+    "loading": "Loading settings",
+    "emptyTitle": "No settings to display",
+    "emptyDescription": "Try adjusting filters to see results.",
+    "errorTitle": "Could not load settings",
+    "errorDescription": "Please try again in a few minutes."
+  }
+}

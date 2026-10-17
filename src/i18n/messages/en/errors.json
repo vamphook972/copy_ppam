@@ -1,0 +1,18 @@
+{
+  "generic": "An unexpected error occurred. Please try again later.",
+  "unauthorized": "You are not authorized to perform this action.",
+  "forbidden": "Access forbidden.",
+  "notFound": "The requested resource was not found.",
+  "network": "Network error. Please check your internet connection.",
+  "server": "Internal server error. Please try again later.",
+  "codes": {
+    "CONFLICT": "A record with this information already exists.",
+    "VALIDATION_ERROR": "The input data is invalid. Please check the form.",
+    "NOT_FOUND": "The requested resource was not found.",
+    "UNAUTHORIZED": "You are not authenticated or your session expired.",
+    "FORBIDDEN": "You do not have permission to perform this action.",
+    "INTERNAL_ERROR": "An internal server error occurred.",
+    "USER_ALREADY_EXISTS": "A user with this email is already registered in the system.",
+    "ENROLLMENT_ALREADY_ACTIVE": "An intake request with this email is already registered."
+  }
+}

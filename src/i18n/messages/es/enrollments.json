@@ -1,0 +1,167 @@
+{
+  "title": "Inscripciones de Participantes",
+  "subtitle": "Gestione los expedientes, bitácora de contacto y confirmación de aspirantes al onboarding.",
+  "primaryAction": "Nueva Inscripción",
+  "new": {
+    "title": "Registrar Inscripción",
+    "subtitle": "Ingrese la información básica del participante para iniciar su proceso de onboarding."
+  },
+  "edit": {
+    "title": "Editar Inscripción",
+    "subtitle": "Actualice los datos del expediente del participante."
+  },
+  "detail": {
+    "title": "Detalle de Inscripción",
+    "subtitle": "Consulte los datos del participante y su bitácora de seguimiento de contactos.",
+    "generalInfo": "Información del Participante",
+    "firstName": "Nombre",
+    "lastName": "Apellido",
+    "email": "Correo Electrónico",
+    "phoneNumber": "Teléfono",
+    "status": "Estado",
+    "userId": "ID Usuario Asociado",
+    "verifiedBy": "Verificado Por",
+    "pdf-document": "Formulario PDF Digitalizado",
+    "contactHistorySection": "Historial y Bitácora de Intentos de Contacto",
+    "noAttempts": "No se han registrado intentos de contacto para este participante.",
+    "registeredBy": "Registrado por",
+    "nextAttempt": "Próximo intento",
+    "noResult": "SIN RESULTADO"
+  },
+  "onboarding": {
+    "title": "Centro de Onboarding y Admisión",
+    "subtitle": "Gestione el ciclo de vida completo de nuevos participantes desde su inscripción hasta la orientación.",
+    "globalProgress": "Progreso Global del Participante en Onboarding",
+    "step1Label": "1. Inscripción y Formulario",
+    "step1Desc": "Registro de participante y carga de formulario PDF",
+    "step2Label": "2. Reunión de Orientación",
+    "step2Desc": "Asistencia verificada mediante QR o lista",
+    "step3Label": "3. Capacitación Formal (Próximamente)",
+    "step3Desc": "Módulo de formación y certificación",
+    "stepCompleted": "✓ Completado",
+    "stepCurrent": "● En Curso",
+    "stepPending": "Pendiente",
+    "participantsSection": "Gestión de Participantes e Inscripciones",
+    "meetingsSection": "Programación y Estado de Reuniones de Orientación"
+  },
+  "table": {
+    "caption": "Listado de inscripciones de participantes",
+    "columns": {
+      "fullName": "Participante",
+      "firstName": "Nombre",
+      "lastName": "Apellido",
+      "email": "Correo Electrónico",
+      "phoneNumber": "Teléfono",
+      "status": "Estado",
+      "attemptsCount": "Intentos",
+      "createdAt": "Fecha de Registro"
+    },
+    "actions": "Acciones"
+  },
+  "form": {
+    "firstNameLabel": "Nombre",
+    "firstNamePlaceholder": "Ej: Juan",
+    "lastNameLabel": "Apellido",
+    "lastNamePlaceholder": "Ej: Pérez",
+    "emailLabel": "Correo Electrónico",
+    "emailPlaceholder": "ejemplo@correo.com",
+    "phoneNumberLabel": "Teléfono de Contacto",
+    "phoneNumberPlaceholder": "3112345678",
+    "fileUrlLabel": "URL del Archivo / Documento",
+    "fileUrlPlaceholder": "https://...",
+    "fileIdLabel": "Subir Archivo PDF",
+    "statusLabel": "Estado de Inscripción",
+    "submitCreate": "Registrar Inscripción",
+    "submitEdit": "Guardar Cambios"
+  },
+  "filters": {
+    "title": "Filtros",
+    "description": "Filtre la lista de inscripciones.",
+    "searchLabel": "Buscar ...",
+    "searchPlaceholder": "Buscar por nombre, email o teléfono...",
+    "statusLabel": "Estado",
+    "statusAll": "Todos los estados",
+    "statusActive": "Activo",
+    "statusInactive": "Inactivo",
+    "apply": "Aplicar filtros",
+    "clear": "Limpiar filtros"
+  },
+  "actions": {
+    "create": "Nueva Inscripción",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "view": "Ver Detalle",
+    "confirm": "Confirmar",
+    "cancel": "Cancelar",
+    "createTitle": "Crear Inscripción",
+    "createDescription": "Ingrese la información básica del participante para iniciar su proceso de onboarding.",
+    "editTitle": "Editar Inscripción",
+    "editDescription": "Actualice los datos del expediente del participante.",
+    "recordContactTitle": "Registrar Intento de Contacto",
+    "recordContactDescription": "Guarde el resultado y notas de la comunicación realizada con el participante.",
+    "confirmContactTitle": "¿Confirmar Contacto con Participante?",
+    "confirmContactDescription": "Esta acción marcará el contacto como verificado y confirmado para continuar con la orientación.",
+    "deleteTitle": "¿Eliminar Inscripción?",
+    "deleteDescription": "Esta acción eliminará permanentemente el registro de la inscripción."
+  },
+  "contactAttempt": {
+    "modalTitle": "Registrar Intento de Contacto",
+    "modalSubtitle": "Guarde el resultado y notas de la comunicación realizada con el participante.",
+    "methodLabel": "Medio de Contacto",
+    "methodPhone": "Llamada Telefónica",
+    "methodWhatsapp": "WhatsApp / Mensajería",
+    "methodEmail": "Correo Electrónico",
+    "methodInPerson": "Visita Presencial",
+    "methodOther": "Otro Medio",
+    "resultLabel": "Resultado del Intento",
+    "resultSuccess": "Exitoso (Respondió / Atendió)",
+    "resultFailed": "Fallido (Ocupado / Rechazado)",
+    "resultUnreachable": "Inubicable (Sin respuesta)",
+    "notesLabel": "Notas u Observaciones",
+    "notesPlaceholder": "Escriba un resumen de la conversación o razón del fallo...",
+    "nextAttemptAtLabel": "Próximo Intento Programado",
+    "submitButton": "Guardar Intento",
+    "cancelButton": "Cancelar"
+  },
+  "storage": {
+    "pdfUploadLabel": "Formulario Digitalizado (PDF)",
+    "clickToSelect": "Haga clic para seleccionar o arrastre un archivo PDF",
+    "pdfHint": "Formato PDF de formulario firmado (Máx 10 MB)",
+    "uploading": "Subiendo archivo a S3...",
+    "uploadedSuccess": "Archivo subido correctamente",
+    "changeFile": "Cambiar",
+    "downloadButton": "Ver / Descargar Formulario PDF",
+    "noFileAttached": "Sin formulario PDF adjunto",
+    "pdfOnlyError": "Únicamente se permiten archivos en formato PDF.",
+    "uploadSuccessNotification": "Archivo PDF cargado exitosamente en S3.",
+    "uploadErrorNotification": "Error al subir el archivo PDF a S3. Intente nuevamente.",
+    "downloadErrorNotification": "Error al obtener la URL de descarga del archivo desde S3."
+  },
+  "notifications": {
+    "contactAttemptSuccess": "Intento de contacto registrado exitosamente.",
+    "contactConfirmedSuccess": "Contacto confirmado correctamente.",
+    "createSuccess": "Inscripción registrada exitosamente."
+  },
+  "statuses": {
+    "PENDING": "Pendiente",
+    "INVITED": "Invitado",
+    "PENDING_CAPACITATION": "Pendiente por Capacitación",
+    "IN_CAPACITATION": "En Capacitación",
+    "COMPLETED": "Completado",
+    "REJECTED": "Rechazado",
+    "UNREACHABLE": "Inubicable",
+    "NO_SHOW": "No Asistió",
+    "INVITATION_EXPIRED": "Invitación Expirada"
+  },
+  "feedbackErrors": {
+    "userAlreadyExists": "Ya existe un usuario registrado en el sistema con este correo electrónico.",
+    "enrollmentAlreadyActive": "Ya existe una solicitud de ingreso en proceso con este correo electrónico."
+  },
+  "states": {
+    "loading": "Cargando inscripciones...",
+    "emptyTitle": "No hay inscripciones registradas",
+    "emptyDescription": "Registre el primer participante para iniciar el flujo de onboarding.",
+    "errorTitle": "Error al cargar inscripciones",
+    "errorDescription": "No se pudieron recuperar las inscripciones. Intente nuevamente."
+  }
+}

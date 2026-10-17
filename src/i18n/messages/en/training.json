@@ -1,0 +1,142 @@
+{
+  "title": "On-site Training (SiSo)",
+  "subtitle": "Manage scheduling and practical evaluations for participants.",
+  "primaryAction": "New Training",
+  "new": {
+    "title": "Schedule Training",
+    "subtitle": "Assign a PPAM place, capacitator, and scheduled date."
+  },
+  "edit": {
+    "title": "Schedule/Reschedule Training",
+    "subtitle": "Update the training scheduling details."
+  },
+  "detail": {
+    "title": "Training Details",
+    "subtitle": "Participant information, status, and practical evaluation.",
+    "generalInfo": "Training Information",
+    "participant": "Participant",
+    "capacitator": "Capacitator",
+    "place": "PPAM Place",
+    "scheduledAt": "Scheduled Date",
+    "attemptNumber": "Attempt Number",
+    "status": "Status",
+    "evaluation": "Practical Evaluation"
+  },
+  "table": {
+    "caption": "Training list",
+    "columns": {
+      "participant": "Participant",
+      "capacitator": "Capacitator",
+      "place": "PPAM Place",
+      "scheduledAt": "Scheduled Date",
+      "attemptNumber": "Attempt",
+      "status": "Status",
+      "createdAt": "Created At",
+      "updatedAt": "Last Updated"
+    },
+    "actions": "Actions"
+  },
+  "form": {
+    "participantLabel": "Participant (User)",
+    "participantPlaceholder": "Select a participant",
+    "cityIdLabel": "City",
+    "cityIdPlaceholder": "Select a city",
+    "zoneIdLabel": "Zone",
+    "zoneIdPlaceholder": "Select a zone",
+    "capacitatorIdLabel": "Capacitator",
+    "capacitatorIdPlaceholder": "Select a capacitator",
+    "placeIdLabel": "PPAM Place",
+    "placeIdPlaceholder": "Select a preaching place",
+    "scheduledAtLabel": "Training Date and Time",
+    "scheduledAtPlaceholder": "Select date and time",
+    "submitCreate": "Schedule Training",
+    "submitEdit": "Save Changes"
+  },
+  "filters": {
+    "title": "Filters",
+    "description": "Refine the training list.",
+    "searchLabel": "Search",
+    "searchPlaceholder": "Search by participant or capacitator...",
+    "statusLabel": "Status",
+    "statusAll": "All statuses",
+    "statusCreated": "Created (Pending Schedule)",
+    "statusScheduled": "Scheduled",
+    "statusInProgress": "In Progress",
+    "statusReprogrammed": "Rescheduled",
+    "statusCompleted": "Approved",
+    "statusFailed": "Failed",
+    "apply": "Apply filters",
+    "clear": "Clear filters"
+  },
+  "actions": {
+    "schedule": "Schedule",
+    "evaluate": "Practical Evaluation",
+    "edit": "Edit",
+    "delete": "Delete",
+    "view": "View detail",
+    "createTitle": "Schedule Training",
+    "createDescription": "Fill in the scheduling details.",
+    "editTitle": "Reschedule Training",
+    "editDescription": "Update the date and assignments.",
+    "deleteTitle": "Delete Training Record?",
+    "deleteDescription": "This action cannot be undone.",
+    "deleteConfirm": "Delete",
+    "deleteCancel": "Cancel"
+  },
+  "states": {
+    "loading": "Loading data...",
+    "emptyTitle": "No training records found.",
+    "emptyDescription": "Create your first record by clicking the button above.",
+    "errorTitle": "Error loading training",
+    "errorDescription": "A problem occurred while communicating with the server. Please try again."
+  },
+  "statuses": {
+    "CREATED": "Created",
+    "SCHEDULED": "Scheduled",
+    "IN_PROGRESS": "In Progress",
+    "REPROGRAMMED": "Rescheduled",
+    "COMPLETED": "Approved",
+    "FAILED": "Failed"
+  },
+  "scheduleModal": {
+    "title": "Schedule On-site Training",
+    "subtitle": "Assign a PPAM place, capacitator, and date for {name}.",
+    "loadingOptions": "Loading options..."
+  },
+  "evaluateModal": {
+    "title": "SiSo Practical Evaluation",
+    "subtitle": "Complete the practical checklist evaluation for {name}.",
+    "capacitatorLabel": "Capacitator",
+    "placeLabel": "Place",
+    "scheduledAtLabel": "Scheduled Date",
+    "attemptNumberLabel": "Attempt Number",
+    "checklistTitle": "Practical Evaluation Criteria",
+    "checklistSubtitle": "Check the items passed during the practice shift.",
+    "notesLabel": "Trainer Notes / Comments",
+    "notesPlaceholder": "Write additional notes regarding the participant's practical performance...",
+    "saveProgress": "Save Progress",
+    "approve": "Approve Training",
+    "reject": "Fail / Reject",
+    "rejectDialogTitle": "Fail Practical Training?",
+    "rejectDialogDescription": "Select whether to grant a 2nd attempt opportunity by rescheduling or fail permanently.",
+    "optionRetry": "Allow 2nd Attempt (Reschedule)",
+    "optionFinalFail": "Fail Permanently",
+    "nextScheduledAtLabel": "Next Training Date & Time (2nd Attempt)",
+    "nextScheduledAtPlaceholder": "Select date and time for the new attempt",
+    "isRequiredLabel": "Required"
+  },
+  "notifications": {
+    "created": "Training scheduled successfully.",
+    "scheduledSuccess": "Training scheduled successfully.",
+    "evaluatedSuccess": "Evaluation progress saved successfully.",
+    "approvedSuccess": "Training approved successfully!",
+    "rejectedSuccess": "Training marked as failed.",
+    "errorFetchData": "Failed to load places or capacitators.",
+    "errorSchedule": "Failed to schedule training.",
+    "errorEvaluate": "Failed to save practical evaluation.",
+    "errorApprove": "Could not approve training. Ensure all required items are passed.",
+    "errorReject": "Failed to process training rejection.",
+    "updated": "Training updated successfully.",
+    "deleted": "Training record deleted."
+  }
+}

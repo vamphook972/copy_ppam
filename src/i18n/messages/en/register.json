@@ -1,0 +1,107 @@
+{
+  "title": "Volunteer Registration",
+  "subtitle": "Complete your information to activate your user account in the APPAM system",
+  "validating": {
+    "title": "Validating invitation...",
+    "description": "Please wait while we verify your invitation link."
+  },
+  "invalidToken": {
+    "title": "Invalid or Expired Invitation",
+    "description": "The invitation link you used is invalid, has expired, or has already been used to complete registration.",
+    "contactSupport": "Contact support",
+    "goHome": "Go to home page"
+  },
+  "stepper": {
+    "step1": "Account",
+    "step2": "Personal",
+    "step3": "Languages",
+    "step4": "Schedules"
+  },
+  "step1": {
+    "title": "Create Account & Security",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email Address",
+    "preferredName": "Preferred Name",
+    "preferredNamePlaceholder": "How do you like to be called?",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password",
+    "showConfirmPassword": "Show password",
+    "hideConfirmPassword": "Hide password"
+  },
+  "step2": {
+    "title": "Personal Info & Phone Numbers",
+    "gender": "Gender",
+    "genderMale": "Male",
+    "genderFemale": "Female",
+    "birthDate": "Birth Date",
+    "countryCode": "Country Code",
+    "phoneNumber": "Primary Phone",
+    "alternatePhone": "Alternate Phone (Optional)",
+    "spouseSection": "Spouse Information",
+    "spouseParticipates": "My spouse participates in the PPAM program",
+    "spouseFullName": "Spouse Full Name",
+    "spouseFullNamePlaceholder": "Spouse full name",
+    "maritalStatus": "Marital Status",
+    "maritalStatusSingle": "Single",
+    "maritalStatusMarried": "Married",
+    "maritalStatusDivorced": "Divorced",
+    "maritalStatusWidowed": "Widowed"
+  },
+  "step3": {
+    "title": "Info & Languages",
+    "baptismDate": "Baptism Date",
+    "congregation": "Congregation",
+    "selectCongregation": "Select your congregation",
+    "languageNote": "Language information helps us assign you to exhibitors where bilingual support is required.",
+    "languages": "Languages spoken",
+    "primaryLanguage": "Primary language",
+    "languageList": {
+      "default": "Select a language",
+      "ES": "Spanish",
+      "EN": "English",
+      "FR": "French",
+      "PT": "Portuguese",
+      "DE": "German",
+      "IT": "Italian",
+      "LS": "Sign Language"
+    },
+    "additionalLanguage": "Additional Language {index}",
+    "addLanguage": "Add language",
+    "removeLanguage": "Remove language"
+  },
+  "step4": {
+    "title": "Availability & Confirmation",
+    "availabilityTitle": "Preferred weekly availability",
+    "availabilitySubtitle": "Select the days and time ranges when you can volunteer at the carts.",
+    "days": {
+      "0": "Sunday",
+      "1": "Monday",
+      "2": "Tuesday",
+      "3": "Wednesday",
+      "4": "Thursday",
+      "5": "Friday",
+      "6": "Saturday"
+    },
+    "startTime": "From:",
+    "endTime": "To:",
+    "addTimeSlot": "Add time slot",
+    "removeTimeSlot": "Remove time slot",
+    "noAvailability": "No time slots configured for this day",
+    "summaryTitle": "Registration Summary",
+    "summaryNote": "Please review your information before completing your registration."
+  },
+  "actions": {
+    "next": "Next step",
+    "previous": "Previous step",
+    "submit": "Complete Registration",
+    "submitting": "Registering..."
+  },
+  "success": {
+    "title": "Registration Completed Successfully!",
+    "description": "Your volunteer account has been created. You can now log in with your credentials.",
+    "loginButton": "Go to Login"
+  }
+}

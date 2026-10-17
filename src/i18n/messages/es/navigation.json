@@ -1,0 +1,33 @@
+{
+  "main": "Navegación principal",
+  "breadcrumb": "Ruta de navegación",
+  "home": "Inicio",
+  "about": "Acerca de",
+  "contact": "Contacto",
+  "support": "Soporte",
+  "users": "Usuarios",
+  "roles": "Roles",
+  "geography": "Geografía",
+  "cities": "Ciudades",
+  "zones": "Zonas",
+  "places": "Lugares",
+  "circuits": "Circuitos",
+  "congregations": "Congregaciones",
+  "enrollments": "Inscripciones",
+  "meetings": "Reuniones",
+  "training": "Entrenamiento",
+  "turns": "Turnos",
+  "settings": "Configuración",
+  "tenant": "Regiones",
+  "emailTemplates": "Plantillas de Notificaciones",
+  "edit": "Editar",
+  "new": "Nuevo",
+  "create": "Crear",
+  "detail": "Detalle",
+  "details": "Detalles",
+  "footer": {
+    "privacyPolicy": "Política de Privacidad",
+    "termsOfService": "Términos y Condiciones",
+    "support": "Soporte"
+  }
+}

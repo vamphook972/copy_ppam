@@ -1,0 +1,51 @@
+{
+  "title": "Support Center",
+  "subtitle": "How can we help you today? Find quick answers to common questions or reach out directly to our support team.",
+  "contact": {
+    "title": "Contact",
+    "emailTitle": "Email address",
+    "email": "support@appam.co",
+    "responseTime": "We usually respond within 24 to 48 business hours.",
+    "action": "Contact support"
+  },
+  "privacy": {
+    "title": "Privacy",
+    "description": "Your privacy matters to us. Review our terms and policies to understand how we protect and manage your data.",
+    "privacyPolicy": "Privacy Policy",
+    "terms": "Terms & Conditions"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "login": {
+      "title": "I cannot log in",
+      "description": "Check that your email and password are correct. If the issue persists, reset your password using the link on the login page."
+    },
+    "appIssue": {
+      "title": "The application is not working properly",
+      "description": "Make sure you have a stable internet connection and are using an updated supported web browser."
+    },
+    "reportBug": {
+      "title": "How do I report a bug?",
+      "description": "Click on 'Contact support' providing a detailed description of the bug along with your system information."
+    }
+  },
+  "beforeContact": {
+    "title": "Before contacting support",
+    "deviceInfo": {
+      "title": "Device information",
+      "description": "Note down your operating system and the web browser you are currently using."
+    },
+    "appInfo": {
+      "title": "Application information",
+      "description": "Identify the specific module or section of the platform where the issue occurs."
+    },
+    "describeProblem": {
+      "title": "Describe the problem",
+      "description": "Write down the exact steps required to reproduce the unexpected behavior."
+    },
+    "screenshots": {
+      "title": "Screenshots",
+      "description": "Capture clear screenshots of error messages or unexpected screens to attach to your inquiry."
+    }
+  }
+}

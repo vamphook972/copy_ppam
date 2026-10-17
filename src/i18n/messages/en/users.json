@@ -1,0 +1,117 @@
+{
+  "title": "Users",
+  "subtitle": "Manage users and system access permissions.",
+  "primaryAction": "Invite user",
+  "actions": {
+    "view": "View",
+    "edit": "Edit",
+    "delete": "Delete",
+    "manageRoles": "Manage roles",
+    "deleteTitle": "Delete user",
+    "deleteDescription": "Are you sure you want to delete the user {name}?"
+  },
+  "roles": {
+    "COORDINATOR": {
+      "name": "Coordinator",
+      "description": "Oversees and manages overall tenant operations and role assignments."
+    },
+    "DATABASE": {
+      "name": "Database",
+      "description": "Manages data records, participants, and tenant-wide reports."
+    },
+    "CIRCUIT_SUPERINTENDENT": {
+      "name": "Circuit Superintendent",
+      "description": "Supervises circuits and congregations associated with the tenant."
+    },
+    "ZONE-SUPERINTENDENT": {
+      "name": "Zone Superintendent",
+      "description": "Manages assigned zones and oversees preaching locations."
+    },
+    "KEY_MAN": {
+      "name": "Key Man",
+      "description": "Main operational lead across locations and shifts in their zone."
+    },
+    "KEY-MAN_ASSISTANT": {
+      "name": "Key Man Assistant",
+      "description": "Assists the key man with logistics and shift supervision."
+    },
+    "PLACE-MANAGER": {
+      "name": "Place Manager",
+      "description": "Responsible for location logistics, cart setup, and supplies."
+    },
+    "CAPACITATOR": {
+      "name": "Trainer",
+      "description": "Conducts training sessions and evaluates readiness of new volunteers."
+    },
+    "PARTICIPANT": {
+      "name": "Participant",
+      "description": "Active volunteer eligible to participate in scheduled shifts."
+    }
+  },
+  "dialog": {
+    "manageRolesTitle": "Manage roles for {name}",
+    "manageRolesDescription": "Select the roles assigned to this user within the tenant.",
+    "baseRoleNotice": "Note: All users have the Participant role by default.",
+    "saveChanges": "Save changes",
+    "saving": "Saving...",
+    "rolesUpdated": "Roles updated successfully",
+    "rolesUpdateError": "Could not update user roles"
+  },
+  "filters": {
+    "title": "User filters",
+    "description": "Refine the list to find users quickly.",
+    "searchLabel": "Search user",
+    "searchPlaceholder": "Search by name or email",
+    "statusLabel": "Status",
+    "statusAll": "All",
+    "statusActive": "Active",
+    "statusPending": "Pending",
+    "statusInactive": "Inactive",
+    "apply": "Apply filters"
+  },
+  "table": {
+    "caption": "Users list",
+    "columns": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "status": "Status",
+      "roles": "Roles",
+      "updatedAt": "Updated"
+    },
+    "actions": "Actions"
+  },
+  "states": {
+    "loading": "Loading users",
+    "emptyTitle": "No users to display",
+    "emptyDescription": "Adjust filters or invite a new user.",
+    "errorTitle": "Could not load users list",
+    "errorDescription": "Please try again in a few minutes."
+  },
+  "form": {
+    "firstNameLabel": "First Name",
+    "firstNamePlaceholder": "Enter first name",
+    "lastNameLabel": "Last Name",
+    "lastNamePlaceholder": "Enter last name",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Enter email",
+    "statusLabel": "Status",
+    "statusActive": "Active",
+    "statusInactive": "Inactive",
+    "statusPending": "Pending",
+    "submitCreate": "Create user",
+    "submitEdit": "Save changes"
+  },
+  "detail": {
+    "generalInfo": "General Information",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "phoneNumber": "Phone Number",
+    "status": "Status",
+    "roles": "Roles",
+    "rolesSection": "Roles & Access",
+    "rolesDescription": "Roles assigned for management and responsibilities within the tenant",
+    "noRoles": "No additional roles assigned"
+  }
+}

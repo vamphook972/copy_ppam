@@ -1,0 +1,107 @@
+{
+  "title": "Registro de Voluntario",
+  "subtitle": "Completa tus datos para activar tu cuenta de usuario en el sistema APPAM",
+  "validating": {
+    "title": "Validando invitación...",
+    "description": "Por favor espera mientras verificamos la validez de tu enlace de invitación."
+  },
+  "invalidToken": {
+    "title": "Invitación no válida o expirada",
+    "description": "El enlace de invitación que utilizaste no es válido, ha caducado o ya ha sido utilizado para completar un registro.",
+    "contactSupport": "Contactar soporte",
+    "goHome": "Ir a la página principal"
+  },
+  "stepper": {
+    "step1": "Cuenta",
+    "step2": "Personal",
+    "step3": "Idiomas",
+    "step4": "Horarios"
+  },
+  "step1": {
+    "title": "Crear Cuenta y Seguridad",
+    "firstName": "Nombre",
+    "lastName": "Apellidos",
+    "email": "Correo Electrónico",
+    "preferredName": "Nombre preferido",
+    "preferredNamePlaceholder": "¿Cómo te gusta que te llamen?",
+    "password": "Contraseña",
+    "confirmPassword": "Confirmar Contraseña",
+    "showPassword": "Mostrar contraseña",
+    "hidePassword": "Ocultar contraseña",
+    "showConfirmPassword": "Mostrar contraseña",
+    "hideConfirmPassword": "Ocultar contraseña"
+  },
+  "step2": {
+    "title": "Información Personal y Teléfonos",
+    "gender": "Género",
+    "genderMale": "Masculino",
+    "genderFemale": "Femenino",
+    "birthDate": "Fecha de Nacimiento",
+    "countryCode": "Código País",
+    "phoneNumber": "Teléfono Principal",
+    "alternatePhone": "Teléfono Alternativo (Opcional)",
+    "spouseSection": "Información del Cónyuge",
+    "spouseParticipates": "Mi cónyuge participa en el programa PPAM",
+    "spouseFullName": "Nombre completo del cónyuge",
+    "spouseFullNamePlaceholder": "Nombre y apellido del cónyuge",
+    "maritalStatus": "Estado Civil",
+    "maritalStatusSingle": "Soltero/a",
+    "maritalStatusMarried": "Casado/a",
+    "maritalStatusDivorced": "Divorciado/a",
+    "maritalStatusWidowed": "Viudo/a"
+  },
+  "step3": {
+    "title": "Datos e Idiomas",
+    "baptismDate": "Fecha de Bautismo",
+    "congregation": "Congregación",
+    "selectCongregation": "Selecciona tu congregación",
+    "languageNote": "La información de idiomas nos ayuda a asignarte en exhibidores donde se requiera soporte bilingüe.",
+    "languages": "Idiomas que hablas",
+    "primaryLanguage": "Idioma principal",
+    "languageList": {
+      "default": "Selecciona un idioma",
+      "ES": "Español",
+      "EN": "Inglés",
+      "FR": "Francés",
+      "PT": "Portugués",
+      "DE": "Alemán",
+      "IT": "Italiano",
+      "LS": "Lengua de Señas"
+    },
+    "additionalLanguage": "Idioma adicional {index}",
+    "addLanguage": "Agregar idioma",
+    "removeLanguage": "Eliminar idioma"
+  },
+  "step4": {
+    "title": "Disponibilidad y Confirmación",
+    "availabilityTitle": "Disponibilidad semanal preferida",
+    "availabilitySubtitle": "Selecciona los días y rangos de horarios en los que puedes colaborar en los exhibidores.",
+    "days": {
+      "0": "Domingo",
+      "1": "Lunes",
+      "2": "Martes",
+      "3": "Miércoles",
+      "4": "Jueves",
+      "5": "Viernes",
+      "6": "Sábado"
+    },
+    "startTime": "De:",
+    "endTime": "Hasta:",
+    "addTimeSlot": "Agregar horario",
+    "removeTimeSlot": "Eliminar horario",
+    "noAvailability": "Sin horarios configurados para este día",
+    "summaryTitle": "Resumen del registro",
+    "summaryNote": "Por favor revisa que tus datos sean correctos antes de finalizar."
+  },
+  "actions": {
+    "next": "Siguiente paso",
+    "previous": "Paso anterior",
+    "submit": "Completar Registro",
+    "submitting": "Registrando..."
+  },
+  "success": {
+    "title": "¡Registro Completado con Éxito!",
+    "description": "Tu cuenta de voluntario ha sido creada exitosamente. Ya puedes iniciar sesión con tus credenciales.",
+    "loginButton": "Ir a Iniciar Sesión"
+  }
+}

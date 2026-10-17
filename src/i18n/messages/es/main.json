@@ -1,0 +1,15 @@
+{
+  "welcome": "Bienvenido",
+  "brand": "Predicación Pública en Áreas Metropolitanas",
+  "brandDescription": "Sistema de gestión integral para la coordinación de turnos, puntos de predicación y participantes",
+  "features": {
+    "management": {
+      "title": "Gestión Centralizada",
+      "description": "Administra ciudades, zonas y puntos de predicación desde un solo lugar."
+    },
+    "security": {
+      "title": "Control de Acceso",
+      "description": "Sistema de permisos basado en roles para garantizar la seguridad."
+    }
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "title": "Consola de Monitoreo de Turnos",
+  "subtitle": "Supervisa en tiempo real la cobertura de participantes y semáforos de necesidades en puntos de predicación.",
+  "primaryAction": "Crear Turno",
+  "views": {
+    "daily": "Vista Diaria Metropolitana",
+    "weekly": "Vista Semanal por Punto"
+  },
+  "monitoring": {
+    "cityFilter": "Ciudad",
+    "cityPlaceholder": "Todas las ciudades",
+    "zoneFilter": "Zona",
+    "zonePlaceholder": "Todas las zonas",
+    "placeFilter": "Punto PPAM",
+    "placePlaceholder": "Todos los puntos",
+    "dateLabel": "Fecha de Monitoreo",
+    "today": "Hoy",
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "weekRange": "Semana: <bold>{fromDate}</bold> a <bold>{toDate}</bold>",
+    "previousWeek": "Semana Anterior",
+    "nextWeek": "Semana Siguiente",
+    "previousDay": "Día Anterior",
+    "nextDay": "Día Siguiente",
+    "assignedCount": "{assigned}/{max} Voluntarios",
+    "legendTitle": "Semáforo de Cobertura",
+    "legendRed": "🔴 Cobertura Insuficiente (< Mínimo)",
+    "legendYellow": "🟡 Cobertura Parcial (≥ Mínimo, < Máximo)",
+    "legendGreen": "🟢 Cobertura Completa (= Máximo)",
+    "legendGray": "⚪ Cancelado / Inactivo",
+    "emptyGrid": "No se encontraron turnos programados para los criterios seleccionados.",
+    "emptyDay": "Sin turnos",
+    "selectPlaceForWeeklyView": "Por favor selecciona un Punto PPAM para consultar su vista semanal de monitoreo.",
+    "daysOfWeek": {
+      "0": "Domingo",
+      "1": "Lunes",
+      "2": "Martes",
+      "3": "Miércoles",
+      "4": "Jueves",
+      "5": "Viernes",
+      "6": "Sábado"
+    }
+  },
+  "new": {
+    "title": "Crear Turno",
+    "subtitle": "Diligencie los campos requeridos para crear un nuevo turno."
+  },
+  "edit": {
+    "title": "Editar Turno",
+    "subtitle": "Actualice la información del turno seleccionado."
+  },
+  "detail": {
+    "title": "Detalle de Turno",
+    "subtitle": "Información detallada del turno.",
+    "generalInfo": "Información General",
+    "name": "Nombre",
+    "status": "Estado"
+  },
+  "table": {
+    "caption": "Listado de turnos",
+    "columns": {
+      "name": "Nombre",
+      "status": "Estado",
+      "createdAt": "Fecha de Creación",
+      "updatedAt": "Última Actualización"
+    },
+    "actions": "Acciones"
+  },
+  "form": {
+    "nameLabel": "Nombre",
+    "namePlaceholder": "Ej: Turno 1",
+    "statusLabel": "Estado",
+    "statusActive": "Activo",
+    "statusInactive": "Inactivo",
+    "submitCreate": "Crear Turno",
+    "submitEdit": "Guardar cambios"
+  },
+  "filters": {
+    "title": "Filtros",
+    "description": "Refine la lista para encontrar turnos rápidamente.",
+    "searchLabel": "Buscar Turno",
+    "searchPlaceholder": "Buscar por nombre...",
+    "statusLabel": "Estado",
+    "statusAll": "Todos",
+    "statusActive": "Activo",
+    "statusInactive": "Inactivo",
+    "apply": "Aplicar filtros",
+    "clear": "Limpiar filtros"
+  },
+  "actions": {
+    "create": "Nuevo Turno",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "view": "Ver detalle",
+    "createTitle": "Crear Turno",
+    "createDescription": "Diligencie los campos requeridos para crear un nuevo turno.",
+    "editTitle": "Editar Turno",
+    "editDescription": "Actualice la información del turno seleccionado.",
+    "deleteTitle": "Eliminar Turno",
+    "deleteDescription": "¿Está seguro de que desea eliminar este turno?",
+    "deleteDescriptionFallback": "¿Está seguro de que desea eliminar este registro?",
+    "deleting": "Eliminando..."
+  },
+  "states": {
+    "loading": "Cargando turnos...",
+    "emptyTitle": "No hay turnos para mostrar",
+    "emptyDescription": "Ajuste los filtros o programe un nuevo turno.",
+    "errorTitle": "Error al cargar turnos",
+    "errorDescription": "Ocurrió un error al cargar la información. Intente nuevamente."
+  },
+  "volunteers": {
+    "openDrawerButton": "Buscar Voluntario",
+    "drawerTitle": "Buscar Voluntario",
+    "searchLabel": "Nombre o Correo",
+    "searchPlaceholder": "Buscar por nombre o correo...",
+    "congregationLabel": "Congregación",
+    "allCongregations": "Todas las congregaciones",
+    "searchCongregationPlaceholder": "Buscar congregación...",
+    "emptyCongregations": "No se encontraron congregaciones.",
+    "loading": "Cargando voluntarios...",
+    "empty": "No se encontraron voluntarios activos."
+  },
+  "assignment": {
+    "confirmTitle": "Confirmar Asignación de Turno",
+    "confirmButton": "Confirmar Asignación",
+    "assigning": "Asignando...",
+    "cancel": "Cancelar",
+    "emailLabel": "Correo",
+    "placeLabel": "Punto PPAM",
+    "dateLabel": "Fecha",
+    "limitWarningTitle": "⚠️ Exceso de Límite de Turnos",
+    "limitWarningDescription": "Con esta asignación, el voluntario alcanzará {target} turnos en el periodo, superando el máximo permitido de {max} turnos para su privilegio de servicio.",
+    "countsHeader": "Conteo de turnos del voluntario:",
+    "dailyCount": "• Turnos Diarios:",
+    "weeklyCount": "• Turnos Semanales:",
+    "monthlyCount": "• Turnos Mensuales:",
+    "overLimitBadge": "🔴 {current} / {max} (Excedido)",
+    "normalLimitBadge": "{current} / {max}",
+    "assignmentTypeLabel": "Tipo de Asignación",
+    "singleTime": "Solo por única vez (esta fecha)",
+    "recurring": "Turno Fijo Recurrente (todas las semanas)",
+    "validityLabel": "Vigencia del Turno Fijo",
+    "indefinite": "Permanente (Indefinida)",
+    "untilDate": "Hasta una fecha límite",
+    "endDateLabel": "Fecha Límite de Vigencia",
+    "loadingCounts": "Consultando conteo de turnos del voluntario...",
+    "recurringConflictTitle": "Advertencia de Conflicto en Turnos Fijos",
+    "recurringConflictMessage": "Asignación recurrente guardada. Se omitieron {count} fecha(s) por conflicto de horario ({dates}).",
+    "recurringWarningSuffix": "Al confirmar, el sistema registrará la regla recurrente y omitirá automáticamente las fechas en conflicto.",
+    "directOverlapMessage": "El voluntario ya cuenta con un turno activo en {placeName} ({startTime} - {endTime}) que se solapa con este horario.",
+    "insufficientTravelTimeMessage": "Requiere al menos 30 minutos de traslado entre puntos distintos. Tiene un turno en {placeName} ({startTime} - {endTime}) demasiado próximo a este horario.",
+    "conflictAssignmentTitle": "Conflicto de Horario (Solapamiento)",
+    "insufficientTravelTimeTitle": "Tiempo de Traslado Insuficiente (Mínimo 30 min)",
+    "recurringSuccess": "Voluntario asignado exitosamente.",
+    "errorDefault": "No se pudo completar la asignación del voluntario."
+  },
+  "monitoringBadges": {
+    "recurringTooltip": "Turno Fijo Recurrente (semanal)",
+    "singleTooltip": "Asignación puntual por única vez",
+    "replacementTooltip": "Reemplazo temporal",
+    "autoTooltip": "Auto-asignación automática",
+    "moreParticipants": "+{count} más",
+    "emptyParticipants": "Sin voluntarios asignados"
+  }
+}

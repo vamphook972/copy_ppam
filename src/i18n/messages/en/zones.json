@@ -1,0 +1,114 @@
+{
+  "title": "Zones",
+  "subtitle": "Manage zones assigned to cities.",
+  "primaryAction": "Create zone",
+  "actions": {
+    "createTitle": "Create zone",
+    "createDescription": "Create a new zone in the system.",
+    "editTitle": "Edit zone",
+    "editDescription": "Modify details of the selected zone.",
+    "view": "View",
+    "edit": "Edit",
+    "delete": "Delete",
+    "deleting": "Deleting...",
+    "deleteTitle": "Delete zone",
+    "deleteDescription": "Are you sure you want to delete {name}?",
+    "deleteDescriptionFallback": "Are you sure you want to delete this zone?"
+  },
+  "filters": {
+    "title": "Filters",
+    "description": "Filter zones by city or status",
+    "searchLabel": "Search",
+    "searchPlaceholder": "Search zone...",
+    "statusLabel": "Status",
+    "statusAll": "All",
+    "statusActive": "Active",
+    "statusInactive": "Inactive",
+    "cityIdLabel": "City",
+    "apply": "Apply filters"
+  },
+  "table": {
+    "caption": "Zones list",
+    "columns": {
+      "name": "Name",
+      "city": "City",
+      "status": "Status",
+      "updatedAt": "Last Updated"
+    },
+    "actions": "Actions"
+  },
+  "form": {
+    "nameLabel": "Zone name",
+    "namePlaceholder": "Enter zone name",
+    "cityIdLabel": "City",
+    "managerUserIdLabel": "Zone Superintendent (Manager)",
+    "statusLabel": "Status",
+    "statusActive": "Active",
+    "statusInactive": "Inactive",
+    "submitCreate": "Create zone",
+    "submitEdit": "Save changes"
+  },
+  "detail": {
+    "generalInfo": "General Information",
+    "superintendentsSection": "Zone Superintendents",
+    "placesSection": "Places assigned to this zone",
+    "name": "Name",
+    "city": "City",
+    "manager": "Zone Superintendent",
+    "status": "Status"
+  },
+  "managers": {
+    "activeTitle": "Current Active Superintendent",
+    "statusActive": "ACTIVE",
+    "statusUnassigned": "UNASSIGNED",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "noActiveManager": "This zone currently has no active Zone Superintendent assigned.",
+    "assignTitle": "Assign or Change Zone Superintendent",
+    "selectLabel": "Select Zone Superintendent",
+    "selectPlaceholder": "-- Select user --",
+    "assigning": "Assigning...",
+    "assignButton": "Assign Superintendent",
+    "assignNotice": "Note: Assigning a new superintendent will automatically set any previous active manager of this zone to INACTIVE in history.",
+    "historyTitle": "Zone Superintendents History",
+    "loadingHistory": "Loading assignment history...",
+    "emptyHistory": "No historical assignment records for this zone.",
+    "tableSuperintendent": "Superintendent",
+    "tableEmail": "Email",
+    "tableStatus": "Status",
+    "tableAssignmentDate": "Assignment Date"
+  },
+  "states": {
+    "loading": "Loading zones",
+    "emptyTitle": "No zones to show",
+    "emptyDescription": "Adjust your filters or create a new zone.",
+    "errorTitle": "Could not load zones list",
+    "errorDescription": "An error occurred while loading zones. Please try again later."
+  },
+  "masterSchedule": {
+    "tabTitle": "Base Schedule Matrix",
+    "description": "This matrix defines the default master shift templates for all PPAM places in this zone.",
+    "addTurnTitle": "New Base Time Slot",
+    "dayOfWeekLabel": "Day of Week",
+    "startTimeLabel": "Start Time",
+    "endTimeLabel": "End Time",
+    "minParticipantsLabel": "Min Participants",
+    "maxParticipantsLabel": "Max Participants",
+    "addTurnButton": "Add Base Slot",
+    "addingTurn": "Saving...",
+    "weeklyMatrixTitle": "Base Weekly Matrix",
+    "emptySchedule": "No time slots configured in this zone's base matrix.",
+    "activeStatus": "ACTIVE",
+    "deactivateButton": "Deactivate",
+    "deactivating": "Deactivating...",
+    "days": {
+      "0": "Sunday",
+      "1": "Monday",
+      "2": "Tuesday",
+      "3": "Wednesday",
+      "4": "Thursday",
+      "5": "Friday",
+      "6": "Saturday"
+    }
+  }
+}

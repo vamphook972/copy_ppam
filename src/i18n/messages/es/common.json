@@ -1,0 +1,63 @@
+{
+  "cancel": "Cancelar",
+  "accept": "Aceptar",
+  "yes": "Sí",
+  "no": "No",
+  "loading": "Cargando...",
+  "retry": "Reintentar",
+  "close": "Cerrar",
+  "save": "Guardar",
+  "delete": "Eliminar",
+  "edit": "Editar",
+  "createdAt": "Creado el {date}",
+  "search": "Buscar",
+  "actions": {
+    "apply": "Aplicar",
+    "cancel": "Cancelar",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "save": "Guardar"
+  },
+  "pagination": {
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "page": "Página",
+    "of": "de",
+    "rowsPerPage": "Filas por página",
+    "pageInfo": "Página {page} de {total}",
+    "showing": "Mostrando {from}-{to} de {total}"
+  },
+  "table": {
+    "empty": "No se encontraron resultados",
+    "loading": "Cargando datos...",
+    "error": "Error al cargar los datos"
+  },
+  "navigation": {
+    "home": "Inicio"
+  },
+  "weeklyCalendarView": {
+    "loadingCalendar": "Cargando turnos...",
+    "addTurnTitle": "Agregar turno",
+    "addTurnButton": "Agregar turno",
+    "addingTurn": "Agregando turno...",
+    "deactivateTurnTitle": "Desactivar turno",
+    "emptySchedule": "No hay turnos programados",
+    "emptyScheduleForDay": "No hay turnos programados para este día",
+    "endTimeAfterStartTimeError": "La hora de finalización debe ser posterior a la hora de inicio",
+    "errorSavingTurn": "Error al guardar el turno",
+    "dayOfWeekLabel": "Día de la semana",
+    "startTimeLabel": "Hora de inicio",
+    "endTimeLabel": "Hora de finalización",
+    "minParticipantsLabel": "Mínimo de participantes",
+    "maxParticipantsLabel": "Máximo de participantes",
+    "dayOfWeek": {
+      "0": "Domingo",
+      "1": "Lunes",
+      "2": "Martes",
+      "3": "Miércoles",
+      "4": "Jueves",
+      "5": "Viernes",
+      "6": "Sábado"
+    }
+  }
+}

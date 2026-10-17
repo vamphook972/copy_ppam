@@ -1,0 +1,69 @@
+{
+  "title": "Cities",
+  "subtitle": "Manage the cities available in the system.",
+  "primaryAction": "Create city",
+  "actions": {
+    "createTitle": "Create city",
+    "createDescription": "Add a new city to the system.",
+    "editTitle": "Edit city",
+    "editDescription": "Modify the details of the selected city.",
+    "importTitle": "Import cities",
+    "importDescription": "Import cities from a CSV file.",
+    "view": "View",
+    "edit": "Edit",
+    "delete": "Delete",
+    "deleting": "Deleting...",
+    "deleteTitle": "Delete city",
+    "deleteDescription": "Are you sure you want to delete {name}?",
+    "deleteDescriptionFallback": "Are you sure you want to delete this city?"
+  },
+  "filters": {
+    "title": "City filters",
+    "description": "Refine the list to find cities quickly.",
+    "searchLabel": "Search city",
+    "searchPlaceholder": "Search by name or postal code",
+    "statusLabel": "Status",
+    "statusAll": "All",
+    "statusActive": "Active",
+    "statusInactive": "Inactive",
+    "apply": "Apply filters"
+  },
+  "table": {
+    "caption": "Cities list",
+    "columns": {
+      "name": "Name",
+      "postalCode": "Postal code",
+      "status": "Status",
+      "updatedAt": "Updated"
+    },
+    "actions": "Actions"
+  },
+  "form": {
+    "nameLabel": "Name",
+    "namePlaceholder": "Enter city name",
+    "postalCodeLabel": "Postal code",
+    "postalCodePlaceholder": "Enter postal code",
+    "postalCodeInvalid": "Postal code is invalid",
+    "statusLabel": "Status",
+    "statusActive": "Active",
+    "statusInactive": "Inactive",
+    "submitCreate": "Create city",
+    "submitEdit": "Save changes",
+    "noValue": "—",
+    "noPostalCode": "No postal code"
+  },
+  "detail": {
+    "generalInfo": "General Information",
+    "zonesSection": "Zones in this city",
+    "name": "Name",
+    "postalCode": "Postal Code",
+    "status": "Status"
+  },
+  "states": {
+    "loading": "Loading cities",
+    "emptyTitle": "No cities to display",
+    "emptyDescription": "Adjust filters or create a new city.",
+    "errorTitle": "Could not load cities list",
+    "errorDescription": "Please try again in a few minutes."
+  }
+}

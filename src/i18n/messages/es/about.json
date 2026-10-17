@@ -1,0 +1,24 @@
+{
+  "title": "Acerca de APPAM",
+  "subhead": "APPAM es una plataforma que ofrece a los usuarios una experiencia fluida para gestionar sus tareas y asignaciones del servicio del campo. Nuestro objetivo es ayudar a los siervos a mantenerse organizados y productivos.",
+  "description": "Estamos comprometidos a ofrecer funciones de alta calidad y a mejorar continuamente nuestra plataforma en base a los comentarios de los usuarios. ¡Gracias por elegir APPAM!",
+  "philosophy": {
+    "title": "Propósito y Filosofía",
+    "description": "APPAM nace como una herramienta para facilitar la organización y el reporte del servicio del campo para los testigos de Jehová. Nuestra misión es proporcionar una plataforma sencilla, segura y eficiente que permita a los siervos mantener un registro claro de su actividad y contribuir de manera más efectiva a la predicación del Reino."
+  },
+  "pillars": {
+    "title": "Pilares Operativos",
+    "centralizedCoordination": {
+      "title": "Coordinación Centralizada",
+      "description": "Estructura jerárquica clara dividida por Ciudades, Zonas, Lugares y Congregaciones para un control fluido."
+    },
+    "securityAndPrivacy": {
+      "title": "Seguridad y Privacidad",
+      "description": "Gestión estricta de permisos por rol garantizando la protección de los datos de los voluntarios."
+    },
+    "turnEfficiency": {
+      "title": "Eficiencia en Turnos",
+      "description": "Asignación optimizada de horarios y confirmación de asistencia en tiempo real para publicadores."
+    }
+  }
+}

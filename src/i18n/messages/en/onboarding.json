@@ -1,0 +1,18 @@
+{
+  "planning": {
+    "title": "Capacitation planning settings",
+    "subtitle": "Alert semaphore over accumulated requests and days without capacitation.",
+    "loading": "Calculating planning indicators...",
+    "errorTitle": "We could not calculate the indicators",
+    "errorDescription": "Something went wrong while querying S-73 requests and orientation meetings.",
+    "retry": "Retry",
+    "formsLabel": "Pending active forms",
+    "formsGoal": "City goal: {goal}",
+    "daysLabel": "Days without capacitation",
+    "daysGoal": "City goal: {goal} days",
+    "noOrientation": "No records",
+    "alertTitle": "YOU HAVE PENDING NOTIFICATIONS TO REVIEW",
+    "alertDescription": "A new PPAM capacitation can now be held. To process the forms of new participants",
+    "alertLink": "click here"
+  }
+}

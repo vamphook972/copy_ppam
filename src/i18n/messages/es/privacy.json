@@ -1,0 +1,23 @@
+{
+  "title": "Política de Privacidad",
+  "subtitle": "Información sobre cómo recopilamos, utilizamos y protegemos tus datos personales en el sistema APPAM.",
+  "lastUpdated": "Última actualización: 1 de agosto de 2026",
+  "sections": {
+    "collection": {
+      "title": "1. Recopilación de Información",
+      "content": "Recopilamos información personal necesaria para la gestión y coordinación de la predicación pública en áreas metropolitanas, incluyendo nombres, números de contacto, correo electrónico, congregación de pertenencia y estado de recomendación de los voluntarios."
+    },
+    "use": {
+      "title": "2. Uso de la Información",
+      "content": "Los datos recopilados se utilizan exclusivamente para la asignación de turnos en exhibidores, confirmación de asistencia, comunicación operativa de emergencia y validación con los coordinadores locales y superintendentes."
+    },
+    "security": {
+      "title": "3. Seguridad y Confidencialidad",
+      "content": "Implementamos medidas de seguridad técnicas y organizativas para proteger la confidencialidad de la información. El acceso al sistema está restringido estrictamente mediante autenticación y permisos según el rol asignado."
+    },
+    "retention": {
+      "title": "4. Conservación y Derechos",
+      "content": "Los usuarios pueden solicitar la revisión, actualización o eliminación de sus registros en el sistema a través de los canales de soporte oficiales o mediante los administradores de su respectiva zona."
+    }
+  }
+}

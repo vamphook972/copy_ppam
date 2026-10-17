@@ -1,0 +1,69 @@
+{
+  "title": "Ciudades",
+  "subtitle": "Gestiona las ciudades disponibles en el sistema.",
+  "primaryAction": "Crear ciudad",
+  "actions": {
+    "createTitle": "Crear ciudad",
+    "createDescription": "Crea una nueva ciudad en el sistema.",
+    "editTitle": "Editar ciudad",
+    "editDescription": "Modifica los detalles de la ciudad seleccionada.",
+    "importTitle": "Importar ciudades",
+    "importDescription": "Importa ciudades desde un archivo CSV.",
+    "view": "Ver",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "deleting": "Eliminando...",
+    "deleteTitle": "Eliminar ciudad",
+    "deleteDescription": "¿Estás seguro de que deseas eliminar a {name}?",
+    "deleteDescriptionFallback": "¿Estás seguro de que deseas eliminar esta ciudad?"
+  },
+  "filters": {
+    "title": "Filtros",
+    "description": "Filtra las ciudades por estado de activación y búsqueda",
+    "searchLabel": "Búsqueda rápida",
+    "searchPlaceholder": "Buscar ciudad...",
+    "statusLabel": "Estado",
+    "statusAll": "Todos",
+    "statusActive": "Activo",
+    "statusInactive": "Inactivo",
+    "apply": "Aplicar filtros"
+  },
+  "table": {
+    "caption": "Listado de ciudades",
+    "columns": {
+      "name": "Nombre",
+      "postalCode": "Código Postal",
+      "status": "Estado",
+      "updatedAt": "Última Actualización"
+    },
+    "actions": "Acciones"
+  },
+  "form": {
+    "nameLabel": "Nombre",
+    "namePlaceholder": "Ingresa el nombre de la ciudad",
+    "postalCodeLabel": "Código postal",
+    "postalCodePlaceholder": "Ingresa el código postal",
+    "postalCodeInvalid": "El código postal es inválido",
+    "statusLabel": "Estado",
+    "statusActive": "Activo",
+    "statusInactive": "Inactivo",
+    "submitCreate": "Crear ciudad",
+    "submitEdit": "Guardar cambios",
+    "noValue": "—",
+    "noPostalCode": "Sin código postal"
+  },
+  "detail": {
+    "generalInfo": "Información general",
+    "zonesSection": "Zonas pertenecientes a esta ciudad",
+    "name": "Nombre",
+    "postalCode": "Código Postal",
+    "status": "Estado"
+  },
+  "states": {
+    "loading": "Cargando ciudades",
+    "emptyTitle": "No hay ciudades para mostrar",
+    "emptyDescription": "Ajusta los filtros o crea una nueva ciudad.",
+    "errorTitle": "No se pudo cargar la lista de ciudades",
+    "errorDescription": "No pudimos cargar la lista de ciudades. Intenta nuevamente en unos minutos."
+  }
+}

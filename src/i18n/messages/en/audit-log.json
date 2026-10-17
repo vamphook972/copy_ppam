@@ -1,0 +1,20 @@
+{
+  "title": "Audit log for {targetTitle}",
+  "loading": "Loading audit log records...",
+  "error": "Error querying the audit history from the database. Please try again later.",
+  "empty": "No events or modifications have been recorded for this resource.",
+  "viewChanges": "View changes in the payload",
+  "hideChanges": "Hide changes",
+  "actorId": "Actor",
+  "timestamp": "Date and time",
+  "event": "Event",
+  "oldValue": "Previous value",
+  "newValue": "New value",
+  "noNewChanges": "N/A (Null/Read)",
+  "noOldChanges": "N/A (Null/Creation)",
+  "entityType": "Entity type",
+  "action": "Action",
+  "ipAddress": "IP address",
+  "userAgent": "User agent",
+  "closeModal": "Close modal"
+}

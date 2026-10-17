@@ -1,0 +1,30 @@
+{
+  "badge": "Predicación Pública Metropolita",
+  "heroTitle": "Plataforma de Gestión para la Predicación Pública en Áreas Metropolitanas",
+  "heroSubtitle": "Coordinación organizada y eficiente de turnos de exhibidores, lugares estratégicos, inscripciones y voluntarios APPAM.",
+  "actions": {
+    "login": "Iniciar Sesión",
+    "support": "Centro de Soporte",
+    "contact": "Contactar administración"
+  },
+  "features": {
+    "title": "Funcionalidades Principales",
+    "places": {
+      "title": "Lugares y Exhibidores",
+      "description": "Gestión de exhibidores de publicaciones en puntos estratégicos de alta afluencia con mapas y ubicaciones autorizadas."
+    },
+    "scheduling": {
+      "title": "Programación de Turnos",
+      "description": "Organización flexible de horarios, turnos rotativos y confirmación rápida de la asistencia de los publicadores."
+    },
+    "volunteers": {
+      "title": "Control de Voluntarios",
+      "description": "Registro de inscripciones, seguimiento al proceso de entrenamiento y verificación del estado de aprobación."
+    }
+  },
+  "supportBanner": {
+    "title": "¿Necesitas ayuda o soporte técnico?",
+    "subtitle": "Accede a nuestras preguntas frecuentes o comunícate con el equipo de coordinación para resolver tus dudas.",
+    "button": "Ir al Centro de Soporte"
+  }
+}

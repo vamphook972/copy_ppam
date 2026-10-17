@@ -1,0 +1,23 @@
+{
+  "title": "Privacy Policy",
+  "subtitle": "Information about how we collect, use, and protect your personal data in the APPAM system.",
+  "lastUpdated": "Last updated: August 1, 2026",
+  "sections": {
+    "collection": {
+      "title": "1. Data Collection",
+      "content": "We collect personal information required for managing public witnessing in metropolitan areas, including names, contact numbers, email addresses, congregation details, and volunteer status."
+    },
+    "use": {
+      "title": "2. Data Usage",
+      "content": "The collected data is strictly used for cart shift scheduling, attendance confirmation, operational communication, and validation with local coordinators."
+    },
+    "security": {
+      "title": "3. Security & Confidentiality",
+      "content": "We enforce strict technical and organizational security measures. System access is strictly controlled via authentication and role-based permissions."
+    },
+    "retention": {
+      "title": "4. Data Retention & Rights",
+      "content": "Users may request review, update, or removal of their registered data through official support channels or via their respective zone coordinators."
+    }
+  }
+}

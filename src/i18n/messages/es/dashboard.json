@@ -1,0 +1,89 @@
+{
+  "loadingData": "Cargando datos...",
+  "sidebar": {
+    "role": "Administración",
+    "footer": "APPAM Admin"
+  },
+  "topbar": {
+    "openSidebar": "Abrir barra lateral",
+    "languageSwitcher": "Cambiar idioma",
+    "themeSwitcher": "Cambiar tema",
+    "themeLabel": "Tema",
+    "themeLight": "Claro",
+    "themeDark": "Oscuro",
+    "searchPlaceholder": "Buscar...",
+    "notifications": "Notificaciones",
+    "notificationsEmpty": "No tienes notificaciones pendientes",
+    "markAllRead": "Marcar leídas",
+    "viewAll": "Ver todas",
+    "languages": {
+      "es": "Español",
+      "en": "English"
+    },
+    "sse": {
+      "defaultTitle": "Notificación de sistema",
+      "defaultDescription": "Nueva actualización disponible en el sistema.",
+      "orientationMeetingScheduledTitle": "Orientación Inicial Programada",
+      "orientationMeetingScheduledDescription": "Se ha programado una reunión de orientación inicial para {date}.",
+      "trainingApprovedTitle": "Capacitación Aprobada",
+      "trainingApprovedDefaultDesc": "Una capacitación ha sido aprobada exitosamente.",
+      "trainingRejectedTitle": "Capacitación Rechazada",
+      "trainingRejectedDefaultDesc": "Una capacitación ha sido rechazada.",
+      "participantActivatedTitle": "Usuario / Participante Activo",
+      "participantActivatedDefaultDesc": "Se ha activado un nuevo participante.",
+      "enrollmentUpdatedTitle": "Inscripción actualizada",
+      "enrollmentUpdatedDefaultDesc": "Se ha actualizado el estado de una inscripción.",
+      "siteTrainingScheduledTitle": "Capacitación Programada",
+      "siteTrainingScheduledDescription": "Se te ha asignado una nueva capacitación en {location} para el {date}.",
+      "siteTrainingScheduledDefaultDesc": "Se te ha asignado una nueva capacitación en sitio.",
+      "rejectedReason": "Rechazada: {reason}",
+      "timeJustNow": "Hace un momento",
+      "timeMinutesAgo": "Hace {count} min",
+      "timeHoursAgo": "Hace {count} {count, plural, =1 {hora} other {horas}}",
+      "timeDaysAgo": "Hace {count} {count, plural, =1 {día} other {días}}"
+    }
+  },
+  "home": {
+    "title": "Panel principal",
+    "subtitle": "Supervisa el estado general y prioriza la siguiente acción clave.",
+    "primaryAction": "Crear asignación",
+    "kpis": {
+      "activeUsersLabel": "Usuarios activos",
+      "activeUsersValue": "128",
+      "pendingAssignmentsLabel": "Asignaciones pendientes",
+      "pendingAssignmentsValue": "24",
+      "completedVisitsLabel": "Visitas completadas",
+      "completedVisitsValue": "312",
+      "alertsLabel": "Alertas abiertas",
+      "alertsValue": "3"
+    },
+    "filters": {
+      "title": "Filtros",
+      "description": "Refina la vista del tablero para encontrar información más rápido.",
+      "searchLabel": "Buscar",
+      "searchPlaceholder": "Buscar por zona, congregación o publicador",
+      "statusLabel": "Estado",
+      "statusAll": "Todos",
+      "statusPending": "Pendiente",
+      "statusInProgress": "En progreso",
+      "statusCompleted": "Completado"
+    },
+    "table": {
+      "caption": "Resumen de asignaciones recientes",
+      "columns": {
+        "territory": "Territorio",
+        "congregation": "Congregación",
+        "status": "Estado",
+        "updatedAt": "Actualizado"
+      },
+      "actions": "Acciones"
+    },
+    "states": {
+      "loading": "Cargando datos del tablero",
+      "emptyTitle": "No hay asignaciones disponibles",
+      "emptyDescription": "Ajusta los filtros o crea una nueva asignación para comenzar.",
+      "errorTitle": "No se pudo cargar el tablero",
+      "errorDescription": "Intenta nuevamente en unos minutos."
+    }
+  }
+}

@@ -1,0 +1,190 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-heading: var(--font-sans);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-success: var(--success);
+  --color-success-foreground: var(--success-foreground);
+  --color-warning: var(--warning);
+  --color-warning-foreground: var(--warning-foreground);
+  --color-destructive: var(--destructive);
+  --color-planning-calm: var(--planning-calm);
+  --color-planning-calm-foreground: var(--planning-calm-foreground);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: var(--radius);
+  --radius-lg: calc(var(--radius) * 1.4);
+  --radius-xl: calc(var(--radius) * 1.8);
+  --radius-2xl: calc(var(--radius) * 2.2);
+
+  --shadow-default: 0px 8px 13px -3px rgba(0, 0, 0, 0.07);
+  --shadow-card: 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+  --shadow-dropdown: 0px 10px 30px 0px rgba(0, 0, 0, 0.08);
+}
+
+:root {
+  /* Canvas Background - TailAdmin Soft Gray #F1F5F9 */
+  --background: #f1f5f9;
+  --foreground: #1c2434;
+
+  /* Cards & Containers - Clean White #FFFFFF */
+  --card: #ffffff;
+  --card-foreground: #1c2434;
+
+  /* Popover & Menus */
+  --popover: #ffffff;
+  --popover-foreground: #1c2434;
+
+  /* Brand Primary Blue - TailAdmin #3C50E0 */
+  --primary: #3c50e0;
+  --primary-foreground: #ffffff;
+
+  /* Secondary & Muted Elements */
+  --secondary: #f7f9fc;
+  --secondary-foreground: #2d3748;
+  --muted: #f1f5f9;
+  --muted-foreground: #64748b;
+
+  /* Accent Highlight - TailAdmin Light Blue Accent */
+  --accent: #eff4fb;
+  --accent-foreground: #3c50e0;
+
+  /* Status Colors */
+  --success: #13c296;
+  --success-foreground: #ffffff;
+  --warning: #ffa70b;
+  --warning-foreground: #ffffff;
+  --destructive: #d34053;
+
+  /* Onboarding planning semaphore - calm state ("Alerta Morada") */
+  --planning-calm: #8b5cf6;
+  --planning-calm-foreground: #ffffff;
+
+  /* Borders & Focus Rings */
+  --border: #e2e8f0;
+  --input: #e2e8f0;
+  --ring: #3c50e0;
+
+  /* Charts */
+  --chart-1: #3c50e0;
+  --chart-2: #80caee;
+  --chart-3: #13c296;
+  --chart-4: #ffa70b;
+  --chart-5: #d34053;
+
+  --radius: 0.5rem;
+
+  /* Sidebar Tokens - TailAdmin Dark Navy #1C2434 */
+  --sidebar: #1c2434;
+  --sidebar-foreground: #8a99ad;
+  --sidebar-primary: #3c50e0;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #333a48;
+  --sidebar-accent-foreground: #ffffff;
+  --sidebar-border: #2e3a47;
+  --sidebar-ring: #3c50e0;
+}
+
+.dark {
+  /* Canvas Background - Deep Slate #0F172A */
+  --background: #0f172a;
+  --foreground: #dee4ee;
+
+  /* Cards & Containers - TailAdmin Dark Card #24303F */
+  --card: #24303f;
+  --card-foreground: #dee4ee;
+
+  /* Popover & Menus */
+  --popover: #24303f;
+  --popover-foreground: #dee4ee;
+
+  /* Brand Primary */
+  --primary: #3c50e0;
+  --primary-foreground: #ffffff;
+
+  /* Secondary & Muted Elements */
+  --secondary: #1a222c;
+  --secondary-foreground: #dee4ee;
+  --muted: #1e293b;
+  --muted-foreground: #8a99ad;
+
+  /* Accent Highlight */
+  --accent: #333a48;
+  --accent-foreground: #ffffff;
+
+  /* Status Colors */
+  --success: #13c296;
+  --success-foreground: #ffffff;
+  --warning: #ffa70b;
+  --warning-foreground: #ffffff;
+  --destructive: #d34053;
+
+  /* Onboarding planning semaphore - calm state ("Alerta Morada") */
+  --planning-calm: #8b5cf6;
+  --planning-calm-foreground: #ffffff;
+
+  /* Borders & Focus Rings */
+  --border: #2e3a47;
+  --input: #2e3a47;
+  --ring: #3c50e0;
+
+  /* Charts */
+  --chart-1: #3c50e0;
+  --chart-2: #80caee;
+  --chart-3: #13c296;
+  --chart-4: #ffa70b;
+  --chart-5: #d34053;
+
+  /* Sidebar Tokens - TailAdmin Dark Navy #1C2434 */
+  --sidebar: #1c2434;
+  --sidebar-foreground: #8a99ad;
+  --sidebar-primary: #3c50e0;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #333a48;
+  --sidebar-accent-foreground: #ffffff;
+  --sidebar-border: #2e3a47;
+  --sidebar-ring: #3c50e0;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground selection:bg-primary/20 selection:text-primary font-sans antialiased;
+  }
+}

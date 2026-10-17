@@ -1,0 +1,80 @@
+{
+  "title": "Congregations",
+  "subtitle": "Manage congregations in the system.",
+  "primaryAction": "Create Congregation",
+  "new": {
+    "title": "Create Congregation",
+    "subtitle": "Fill in the required fields to create a new congregation."
+  },
+  "edit": {
+    "title": "Edit Congregation",
+    "subtitle": "Update the selected congregation's information."
+  },
+  "detail": {
+    "title": "Congregation Detail",
+    "subtitle": "Detailed information about the congregation.",
+    "generalInfo": "General Information",
+    "name": "Name",
+    "city": "City",
+    "circuit": "Circuit",
+    "status": "Status",
+    "membersSection": "Members"
+  },
+  "table": {
+    "caption": "Congregations list",
+    "columns": {
+      "name": "Name",
+      "city": "City",
+      "circuit": "Circuit",
+      "status": "Status",
+      "createdAt": "Created At",
+      "updatedAt": "Last Updated"
+    },
+    "actions": "Actions"
+  },
+  "form": {
+    "nameLabel": "Name",
+    "namePlaceholder": "e.g. Congregation 1",
+    "cityIdLabel": "City",
+    "cityIdPlaceholder": "Select a city",
+    "circuitIdLabel": "Circuit",
+    "circuitIdPlaceholder": "Select a circuit",
+    "statusLabel": "Status",
+    "statusActive": "Active",
+    "statusInactive": "Inactive",
+    "submitCreate": "Create congregation",
+    "submitEdit": "Save changes"
+  },
+  "filters": {
+    "title": "Filters",
+    "description": "Filter congregations by status and search.",
+    "searchLabel": "Quick search",
+    "searchPlaceholder": "Search by name...",
+    "cityIdLabel": "City",
+    "circuitIdLabel": "Circuit",
+    "statusLabel": "Status",
+    "statusAll": "All",
+    "statusActive": "Active",
+    "statusInactive": "Inactive",
+    "apply": "Apply filters"
+  },
+  "actions": {
+    "create": "New Congregation",
+    "edit": "Edit",
+    "delete": "Delete",
+    "view": "View detail",
+    "createTitle": "Create Congregation",
+    "createDescription": "Fill in the required fields to create a new congregation.",
+    "editTitle": "Edit Congregation",
+    "editDescription": "Update the selected congregation's information.",
+    "deleteTitle": "Delete Congregation?",
+    "deleteDescription": "This action cannot be undone. The record will be permanently deleted from the system."
+  },
+  "states": {
+    "loading": "Loading data...",
+    "emptyTitle": "No congregations found",
+    "emptyDescription": "Create your first record by clicking the button above.",
+    "errorTitle": "Error loading congregations",
+    "errorDescription": "A problem occurred while communicating with the server. Please try again."
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "title": "Usuarios",
+  "subtitle": "Administra usuarios y permisos de acceso al sistema.",
+  "primaryAction": "Invitar usuario",
+  "actions": {
+    "view": "Ver",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "manageRoles": "Gestionar roles",
+    "deleteTitle": "Eliminar usuario",
+    "deleteDescription": "¿Estás seguro de que quieres eliminar al usuario {name}?"
+  },
+  "roles": {
+    "COORDINATOR": {
+      "name": "Coordinador",
+      "description": "Supervisa y gestiona la operación general del tenant y asignación de roles."
+    },
+    "DATABASE": {
+      "name": "Base de Datos",
+      "description": "Gestiona registros de datos, participantes y reportes globales del tenant."
+    },
+    "CIRCUIT_SUPERINTENDENT": {
+      "name": "Superintendente de Circuito",
+      "description": "Supervisa los circuitos y congregaciones asociadas al tenant."
+    },
+    "ZONE-SUPERINTENDENT": {
+      "name": "Superintendente de Zona",
+      "description": "Administra las zonas asignadas y supervisa lugares de predicación."
+    },
+    "KEY_MAN": {
+      "name": "Hombre Clave",
+      "description": "Responsable operativo principal en los lugares y turnos de su zona."
+    },
+    "KEY-MAN_ASSISTANT": {
+      "name": "Auxiliar de Hombre Clave",
+      "description": "Asiste al hombre clave en la logística y supervisión del lugar."
+    },
+    "PLACE-MANAGER": {
+      "name": "Responsable de Lugar",
+      "description": "Encargado de la logística, carrito y materiales del punto de predicación."
+    },
+    "CAPACITATOR": {
+      "name": "Capacitador",
+      "description": "Imparte capacitaciones y evalúa la preparación de nuevos participantes."
+    },
+    "PARTICIPANT": {
+      "name": "Participante",
+      "description": "Voluntario activo habilitado para participar en los turnos asignados."
+    }
+  },
+  "dialog": {
+    "manageRolesTitle": "Gestionar roles de {name}",
+    "manageRolesDescription": "Selecciona los roles asignados a este usuario en el tenant.",
+    "baseRoleNotice": "Nota: Todos los usuarios cuentan con el rol Participante como rol base del sistema.",
+    "saveChanges": "Guardar cambios",
+    "saving": "Guardando...",
+    "rolesUpdated": "Roles actualizados exitosamente",
+    "rolesUpdateError": "No se pudieron actualizar los roles del usuario"
+  },
+  "filters": {
+    "title": "Filtros de usuarios",
+    "description": "Refina la lista para encontrar usuarios rápidamente.",
+    "searchLabel": "Buscar usuario",
+    "searchPlaceholder": "Buscar por nombre o correo",
+    "statusLabel": "Estado",
+    "statusAll": "Todos",
+    "statusActive": "Activo",
+    "statusPending": "Pendiente",
+    "statusInactive": "Inactivo",
+    "apply": "Aplicar filtros"
+  },
+  "table": {
+    "caption": "Listado de usuarios",
+    "columns": {
+      "firstName": "Nombres",
+      "lastName": "Apellidos",
+      "email": "Correo electrónico",
+      "status": "Estado",
+      "roles": "Roles",
+      "updatedAt": "Actualizado"
+    },
+    "actions": "Acciones"
+  },
+  "states": {
+    "loading": "Cargando usuarios",
+    "emptyTitle": "No hay usuarios para mostrar",
+    "emptyDescription": "Ajusta los filtros o invita un nuevo usuario.",
+    "errorTitle": "No se pudo cargar la lista de usuarios",
+    "errorDescription": "Intenta nuevamente en unos minutos."
+  },
+  "form": {
+    "firstNameLabel": "Nombres",
+    "firstNamePlaceholder": "Ingresa los nombres",
+    "lastNameLabel": "Apellidos",
+    "lastNamePlaceholder": "Ingresa los apellidos",
+    "emailLabel": "Correo electrónico",
+    "emailPlaceholder": "Ingresa el correo electrónico",
+    "statusLabel": "Estado",
+    "statusActive": "Activo",
+    "statusInactive": "Inactivo",
+    "statusPending": "Pendiente",
+    "submitCreate": "Crear usuario",
+    "submitEdit": "Guardar cambios"
+  },
+  "detail": {
+    "generalInfo": "Información general",
+    "firstName": "Nombres",
+    "lastName": "Apellidos",
+    "email": "Correo electrónico",
+    "phoneNumber": "Número de teléfono",
+    "status": "Estado",
+    "roles": "Roles",
+    "rolesSection": "Roles y Accesos",
+    "rolesDescription": "Roles asignados para la gestión y responsabilidades dentro del tenant",
+    "noRoles": "Sin roles adicionales asignados"
+  }
+}

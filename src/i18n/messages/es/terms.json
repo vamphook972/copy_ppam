@@ -1,0 +1,23 @@
+{
+  "title": "Términos y Condiciones",
+  "subtitle": "Normas y condiciones de uso de la plataforma de administración APPAM para usuarios autorizados.",
+  "lastUpdated": "Última actualización: 1 de agosto de 2026",
+  "sections": {
+    "acceptance": {
+      "title": "1. Aceptación de los Términos",
+      "content": "Al acceder y hacer uso de la plataforma APPAM, el usuario acepta cumplir con los términos y pautas operativas establecidas para la predicación pública en áreas metropolitanas."
+    },
+    "accounts": {
+      "title": "2. Cuentas de Usuario y Credenciales",
+      "content": "Cada usuario es responsable de mantener la confidencialidad de sus credenciales de acceso. Queda prohibida la transferencia de cuentas o el acceso no autorizado a terceros."
+    },
+    "conduct": {
+      "title": "3. Uso Aceptable y Confidencialidad",
+      "content": "La información contenida en el sistema, incluidos datos de voluntarios y puntos de predicación, es de carácter estrictamente confidencial y no debe ser divulgada fuera del marco de la organización."
+    },
+    "modifications": {
+      "title": "4. Modificaciones al Servicio",
+      "content": "Nos reservamos el derecho de actualizar la plataforma y sus términos para mejorar la experiencia, seguridad y eficiencia en la coordinación."
+    }
+  }
+}

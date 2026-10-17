@@ -1,0 +1,24 @@
+{
+  "title": "About APPAM",
+  "subhead": "APPAM is a platform that provides users with a seamless experience for managing their tasks and field service assignments. Our goal is to help publishers stay organized and productive.",
+  "description": "We are committed to delivering high-quality features and continuously improving our platform based on user feedback. Thank you for choosing APPAM!",
+  "philosophy": {
+    "title": "Purpose and Philosophy",
+    "description": "APPAM was created as a tool to facilitate the organization and reporting of the field service for Jehovah's Witnesses. Our mission is to provide a simple, secure, and efficient platform that allows publishers to maintain a clear record of their activity and contribute more effectively to the preaching of the Kingdom."
+  },
+  "pillars": {
+    "title": "Operating Pillars",
+    "centralizedCoordination": {
+      "title": "Centralized Coordination",
+      "description": "Clear hierarchical structure divided by Cities, Zones, Places, and Congregations for fluid control."
+    },
+    "securityAndPrivacy": {
+      "title": "Security and Privacy",
+      "description": "Strict role-based permission management ensuring the protection of volunteer data."
+    },
+    "turnEfficiency": {
+      "title": "Turn Efficiency",
+      "description": "Optimized scheduling and real-time attendance confirmation for publishers."
+    }
+  }
+}

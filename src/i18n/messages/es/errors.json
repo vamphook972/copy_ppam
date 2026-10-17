@@ -1,0 +1,18 @@
+{
+  "generic": "Ocurrió un error inesperado. Inténtalo de nuevo más tarde.",
+  "unauthorized": "No tienes autorización para realizar esta acción.",
+  "forbidden": "Acceso prohibido.",
+  "notFound": "El recurso solicitado no fue encontrado.",
+  "network": "Error de conexión. Verifica tu conexión a internet.",
+  "server": "Error interno del servidor. Inténtalo más tarde.",
+  "codes": {
+    "CONFLICT": "Ya existe un registro con estos datos en el sistema.",
+    "VALIDATION_ERROR": "Los datos ingresados son inválidos. Revisa el formulario.",
+    "NOT_FOUND": "El recurso solicitado no fue encontrado.",
+    "UNAUTHORIZED": "No tienes sesión activa o tus permisos expiraron.",
+    "FORBIDDEN": "No tienes permiso para realizar esta acción.",
+    "INTERNAL_ERROR": "Ocurrió un error interno en el servidor.",
+    "USER_ALREADY_EXISTS": "Ya existe un usuario registrado en el sistema con este correo electrónico.",
+    "ENROLLMENT_ALREADY_ACTIVE": "Ya existe una solicitud de ingreso registrada con este correo electrónico."
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "cancel": "Cancel",
+  "accept": "Accept",
+  "yes": "Yes",
+  "no": "No",
+  "loading": "Loading...",
+  "retry": "Retry",
+  "close": "Close",
+  "save": "Save",
+  "delete": "Delete",
+  "edit": "Edit",
+  "createdAt": "Created on {date}",
+  "search": "Search",
+  "actions": {
+    "apply": "Apply",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "delete": "Delete",
+    "save": "Save"
+  },
+  "pagination": {
+    "previous": "Previous",
+    "next": "Next",
+    "page": "Page",
+    "of": "of",
+    "rowsPerPage": "Rows per page",
+    "pageInfo": "Page {page} of {total}",
+    "showing": "Showing {from}-{to} of {total}"
+  },
+  "table": {
+    "empty": "No results found",
+    "loading": "Loading data...",
+    "error": "Error loading data"
+  },
+  "navigation": {
+    "home": "Home"
+  },
+  "weeklyCalendarView": {
+    "loadingCalendar": "Loading turns...",
+    "addTurnTitle": "Add turn",
+    "addTurnButton": "Add turn",
+    "addingTurn": "Adding turn...",
+    "deactivateTurnTitle": "Deactivate turn",
+    "emptySchedule": "No turns scheduled",
+    "emptyScheduleForDay": "No turns scheduled for this day",
+    "endTimeAfterStartTimeError": "End time must be after start time",
+    "errorSavingTurn": "Error saving turn",
+    "dayOfWeekLabel": "Day of the week",
+    "startTimeLabel": "Start time",
+    "endTimeLabel": "End time",
+    "minParticipantsLabel": "Minimum participants",
+    "maxParticipantsLabel": "Maximum participants",
+    "dayOfWeek": {
+      "0": "Sunday",
+      "1": "Monday",
+      "2": "Tuesday",
+      "3": "Wednesday",
+      "4": "Thursday",
+      "5": "Friday",
+      "6": "Saturday"
+    }
+  }
+}

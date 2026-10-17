@@ -1,0 +1,15 @@
+{
+  "welcome": "Welcome",
+  "brand": "Metropolitan Public Witnessing",
+  "brandDescription": "A comprehensive system for coordinating witnessing schedules, locations, and participants.",
+  "features": {
+    "management": {
+      "title": "Centralized Coordination",
+      "description": "Manage cities, territories, and public witnessing locations from one place."
+    },
+    "security": {
+      "title": "Role-Based Access",
+      "description": "Secure access with permissions tailored to each user's responsibilities."
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "title": "Plantillas de Notificación",
+  "subtitle": "Administra y edita las plantillas de correo y mensajes del sistema",
+  "primaryAction": "Crear Plantilla",
+  "actions": {
+    "createTitle": "Nueva Plantilla de Notificación",
+    "createDescription": "Diseña una nueva plantilla con contenido HTML y variables dinámicas.",
+    "editTitle": "Editar Plantilla de Notificación",
+    "editDescription": "Modifica el asunto, cuerpo y variables de la plantilla.",
+    "edit": "Editar",
+    "preview": "Previsualizar"
+  },
+  "filters": {
+    "title": "Filtros",
+    "description": "Filtra las plantillas por idioma o palabra clave",
+    "searchLabel": "Búsqueda rápida",
+    "searchPlaceholder": "Buscar por ID, asunto o descripción...",
+    "languageLabel": "Idioma",
+    "languageAll": "Todos los idiomas",
+    "apply": "Aplicar filtros"
+  },
+  "table": {
+    "caption": "Lista de plantillas de notificación",
+    "columns": {
+      "templateId": "ID de Plantilla",
+      "language": "Idioma",
+      "subject": "Asunto",
+      "description": "Descripción",
+      "variables": "Variables"
+    },
+    "actions": "Acciones"
+  },
+  "states": {
+    "loading": "Cargando plantillas...",
+    "emptyTitle": "No hay plantillas",
+    "emptyDescription": "Aún no se ha creado ninguna plantilla de notificación.",
+    "errorTitle": "Error al cargar",
+    "errorDescription": "No pudimos cargar las plantillas de notificación."
+  },
+  "form": {
+    "templateIdLabel": "ID de Plantilla",
+    "templateIdPlaceholder": "ej. welcome-email",
+    "languageLabel": "Idioma",
+    "subjectLabel": "Asunto",
+    "subjectPlaceholder": "ej. Bienvenido a {app_name}",
+    "descriptionLabel": "Descripción",
+    "descriptionPlaceholder": "Descripción breve del uso de esta plantilla...",
+    "bodyLabel": "Cuerpo HTML",
+    "variablesLabel": "Variables dinámicas",
+    "variablesHelp": "Agrega variables que podrán ser reemplazadas al enviar la notificación.",
+    "addVariablePlaceholder": "Nombre de variable (ej. user_name)",
+    "addVariableButton": "Agregar",
+    "previewButton": "Previsualizar Plantilla",
+    "submitCreate": "Crear Plantilla",
+    "submitUpdate": "Guardar Cambios"
+  },
+  "preview": {
+    "title": "Vista Previa de Notificación",
+    "description": "Ingresa valores de prueba para las variables y observa cómo se renderización.",
+    "variablesHeader": "Valores de Prueba",
+    "resultHeader": "Resultado Renderizado",
+    "generatePreview": "Generar Vista Previa"
+  }
+}

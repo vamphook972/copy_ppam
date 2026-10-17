@@ -1,0 +1,89 @@
+{
+  "loadingData": "Loading data...",
+  "sidebar": {
+    "role": "Administration",
+    "footer": "APPAM Admin"
+  },
+  "topbar": {
+    "openSidebar": "Open sidebar",
+    "languageSwitcher": "Switch language",
+    "themeSwitcher": "Switch theme",
+    "themeLabel": "Theme",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "searchPlaceholder": "Search...",
+    "notifications": "Notifications",
+    "notificationsEmpty": "No pending notifications",
+    "markAllRead": "Mark all as read",
+    "viewAll": "View all",
+    "languages": {
+      "es": "Spanish",
+      "en": "English"
+    },
+    "sse": {
+      "defaultTitle": "System Notification",
+      "defaultDescription": "New system update available.",
+      "orientationMeetingScheduledTitle": "Initial orientation meeting scheduled",
+      "orientationMeetingScheduledDescription": "An initial orientation meeting scheduled for {date}",
+      "trainingApprovedTitle": "Training Approved",
+      "trainingApprovedDefaultDesc": "A training has been successfully approved.",
+      "trainingRejectedTitle": "Training Rejected",
+      "trainingRejectedDefaultDesc": "A training has been rejected.",
+      "participantActivatedTitle": "Active User / Participant",
+      "participantActivatedDefaultDesc": "A new participant has been activated.",
+      "enrollmentUpdatedTitle": "Enrollment Updated",
+      "enrollmentUpdatedDefaultDesc": "An enrollment status has been updated.",
+      "siteTrainingScheduledTitle": "Training Scheduled",
+      "siteTrainingScheduledDescription": "You have been assigned a new training in {location} at {date}",
+      "siteTrainingScheduledDefaultDesc": "You have been assigned a new on-site training.",
+      "rejectedReason": "Rejected: {reason}",
+      "timeJustNow": "Just now",
+      "timeMinutesAgo": "{count} min ago",
+      "timeHoursAgo": "{count} {count, plural, =1 {hour} other {hours}} ago",
+      "timeDaysAgo": "{count} {count, plural, =1 {day} other {days}} ago"
+    }
+  },
+  "home": {
+    "title": "Dashboard",
+    "subtitle": "Monitor overall status and prioritize the next key action.",
+    "primaryAction": "Create assignment",
+    "kpis": {
+      "activeUsersLabel": "Active users",
+      "activeUsersValue": "128",
+      "pendingAssignmentsLabel": "Pending assignments",
+      "pendingAssignmentsValue": "24",
+      "completedVisitsLabel": "Completed visits",
+      "completedVisitsValue": "312",
+      "alertsLabel": "Open alerts",
+      "alertsValue": "3"
+    },
+    "filters": {
+      "title": "Filters",
+      "description": "Refine dashboard results to find relevant information faster.",
+      "searchLabel": "Search",
+      "searchPlaceholder": "Search by zone, congregation, or publisher",
+      "statusLabel": "Status",
+      "statusAll": "All",
+      "statusPending": "Pending",
+      "statusInProgress": "In progress",
+      "statusCompleted": "Completed"
+    },
+    "table": {
+      "caption": "Recent assignment summary",
+      "columns": {
+        "territory": "Territory",
+        "congregation": "Congregation",
+        "status": "Status",
+        "updatedAt": "Updated"
+      },
+      "actions": "Actions"
+    },
+    "states": {
+      "loading": "Loading dashboard data",
+      "emptyTitle": "No assignments available",
+      "emptyDescription": "Adjust filters or create a new assignment to get started.",
+      "errorTitle": "Could not load dashboard",
+      "errorDescription": "Please try again in a few minutes."
+    }
+  }
+}

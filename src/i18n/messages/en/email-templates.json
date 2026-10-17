@@ -1,0 +1,64 @@
+{
+  "title": "Notification Templates",
+  "subtitle": "Manage and edit system email and message templates",
+  "primaryAction": "Create Template",
+  "actions": {
+    "createTitle": "New Notification Template",
+    "createDescription": "Design a new template with HTML content and dynamic variables.",
+    "editTitle": "Edit Notification Template",
+    "editDescription": "Modify template subject, body, and variables.",
+    "edit": "Edit",
+    "preview": "Preview"
+  },
+  "filters": {
+    "title": "Filters",
+    "description": "Filter templates by language or keyword",
+    "searchLabel": "Quick search",
+    "searchPlaceholder": "Search by ID, subject or description...",
+    "languageLabel": "Language",
+    "languageAll": "All languages",
+    "apply": "Apply filters"
+  },
+  "table": {
+    "caption": "List of notification templates",
+    "columns": {
+      "templateId": "Template ID",
+      "language": "Language",
+      "subject": "Subject",
+      "description": "Description",
+      "variables": "Variables"
+    },
+    "actions": "Actions"
+  },
+  "states": {
+    "loading": "Loading templates...",
+    "emptyTitle": "No templates found",
+    "emptyDescription": "No notification template has been created yet.",
+    "errorTitle": "Failed to load",
+    "errorDescription": "We couldn't load the notification templates."
+  },
+  "form": {
+    "templateIdLabel": "Template ID",
+    "templateIdPlaceholder": "e.g. welcome-email",
+    "languageLabel": "Language",
+    "subjectLabel": "Subject",
+    "subjectPlaceholder": "e.g. Welcome to {app_name}",
+    "descriptionLabel": "Description",
+    "descriptionPlaceholder": "Short description of how this template is used...",
+    "bodyLabel": "HTML Body",
+    "variablesLabel": "Dynamic Variables",
+    "variablesHelp": "Add variables that can be replaced when sending notifications.",
+    "addVariablePlaceholder": "Variable name (e.g. user_name)",
+    "addVariableButton": "Add",
+    "previewButton": "Preview Template",
+    "submitCreate": "Create Template",
+    "submitUpdate": "Save Changes"
+  },
+  "preview": {
+    "title": "Notification Preview",
+    "description": "Enter test values for variables to see how it will render.",
+    "variablesHeader": "Test Values",
+    "resultHeader": "Rendered Result",
+    "generatePreview": "Generate Preview"
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "title": "Participant Enrollments",
+  "subtitle": "Manage onboarding participant files, contact history, and confirmation.",
+  "primaryAction": "New Enrollment",
+  "new": {
+    "title": "Register Enrollment",
+    "subtitle": "Enter the basic participant details to initiate their onboarding process."
+  },
+  "edit": {
+    "title": "Edit Enrollment",
+    "subtitle": "Update the participant's enrollment record."
+  },
+  "detail": {
+    "title": "Enrollment Detail",
+    "subtitle": "View participant details and contact tracking history.",
+    "generalInfo": "Participant Information",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "phoneNumber": "Phone Number",
+    "status": "Status",
+    "userId": "Associated User ID",
+    "verifiedBy": "Verified By",
+    "pdf-document": "Digitized PDF Form",
+    "contactHistorySection": "Contact Attempt History & Log",
+    "noAttempts": "No contact attempts recorded for this participant.",
+    "registeredBy": "Recorded by",
+    "nextAttempt": "Next attempt",
+    "noResult": "NO RESULT"
+  },
+  "onboarding": {
+    "title": "Onboarding & Admission Center",
+    "subtitle": "Manage the complete lifecycle of new participants from enrollment to orientation.",
+    "globalProgress": "Participant Global Onboarding Progress",
+    "step1Label": "1. Enrollment & Form",
+    "step1Desc": "Participant registration and PDF form upload",
+    "step2Label": "2. Orientation Meeting",
+    "step2Desc": "Attendance verified via QR or list",
+    "step3Label": "3. Formal Training (Coming Soon)",
+    "step3Desc": "Training module and certification",
+    "stepCompleted": "✓ Completed",
+    "stepCurrent": "● In Progress",
+    "stepPending": "Pending",
+    "participantsSection": "Participant & Enrollment Management",
+    "meetingsSection": "Orientation Meeting Scheduling & Status"
+  },
+  "table": {
+    "caption": "Participant Enrollment List",
+    "columns": {
+      "fullName": "Participant",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "phoneNumber": "Phone Number",
+      "status": "Status",
+      "attemptsCount": "Attempts",
+      "createdAt": "Registered At"
+    },
+    "actions": "Actions"
+  },
+  "form": {
+    "firstNameLabel": "First Name",
+    "firstNamePlaceholder": "e.g. John",
+    "lastNameLabel": "Last Name",
+    "lastNamePlaceholder": "e.g. Doe",
+    "emailLabel": "Email",
+    "emailPlaceholder": "example@email.com",
+    "phoneNumberLabel": "Contact Phone Number",
+    "phoneNumberPlaceholder": "3112345678",
+    "fileUrlLabel": "File / Document URL",
+    "fileUrlPlaceholder": "https://...",
+    "fileIdLabel": "Upload PDF File",
+    "statusLabel": "Enrollment Status",
+    "submitCreate": "Create Enrollment",
+    "submitEdit": "Save Changes"
+  },
+  "filters": {
+    "title": "Filters",
+    "description": "Filter enrollments by search term or status.",
+    "searchLabel": "Search...",
+    "searchPlaceholder": "Search by name, email, or phone...",
+    "statusLabel": "Status",
+    "statusAll": "All statuses",
+    "statusActive": "Active",
+    "statusInactive": "Inactive",
+    "apply": "Apply filters",
+    "clear": "Clear filters"
+  },
+  "actions": {
+    "create": "New Enrollment",
+    "edit": "Edit",
+    "delete": "Delete",
+    "view": "View Detail",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "createTitle": "Create Enrollment",
+    "createDescription": "Enter the basic participant details to initiate their onboarding process.",
+    "editTitle": "Edit Enrollment",
+    "editDescription": "Update the participant's enrollment record.",
+    "recordContactTitle": "Record Contact Attempt",
+    "recordContactDescription": "Save the communication result and notes for this participant.",
+    "confirmContactTitle": "Confirm Contact with Participant?",
+    "confirmContactDescription": "This action will mark the contact as verified and confirmed to proceed with orientation.",
+    "deleteTitle": "Delete Enrollment?",
+    "deleteDescription": "This action will permanently delete the enrollment record."
+  },
+  "contactAttempt": {
+    "modalTitle": "Record Contact Attempt",
+    "modalSubtitle": "Save the communication result and notes for this participant.",
+    "methodLabel": "Contact Method",
+    "methodPhone": "Phone Call",
+    "methodWhatsapp": "WhatsApp / Messaging",
+    "methodEmail": "Email",
+    "methodInPerson": "In Person Visit",
+    "methodOther": "Other Method",
+    "resultLabel": "Attempt Result",
+    "resultSuccess": "Successful (Answered / Attended)",
+    "resultFailed": "Failed (Busy / Rejected)",
+    "resultUnreachable": "Unreachable (No response)",
+    "notesLabel": "Notes / Observations",
+    "notesPlaceholder": "Write a summary of the conversation or failure reason...",
+    "nextAttemptAtLabel": "Next Scheduled Attempt",
+    "submitButton": "Save Attempt",
+    "cancelButton": "Cancel"
+  },
+  "storage": {
+    "pdfUploadLabel": "Digitized Form (PDF)",
+    "clickToSelect": "Click to select or drag a PDF file",
+    "pdfHint": "Signed PDF form format (Max 10 MB)",
+    "uploading": "Uploading file to S3...",
+    "uploadedSuccess": "File uploaded successfully",
+    "changeFile": "Change",
+    "downloadButton": "View / Download PDF Form",
+    "noFileAttached": "No PDF form attached",
+    "pdfOnlyError": "Only PDF files are allowed.",
+    "uploadSuccessNotification": "PDF file uploaded successfully to S3.",
+    "uploadErrorNotification": "Failed to upload PDF file to S3. Please try again.",
+    "downloadErrorNotification": "Failed to fetch file download URL from S3."
+  },
+  "notifications": {
+    "contactAttemptSuccess": "Contact attempt recorded successfully.",
+    "contactConfirmedSuccess": "Contact confirmed successfully.",
+    "createSuccess": "Enrollment registered successfully."
+  },
+  "statuses": {
+    "PENDING": "Pending",
+    "INVITED": "Invited",
+    "PENDING_CAPACITATION": "Pending Training",
+    "IN_CAPACITATION": "In Training",
+    "COMPLETED": "Completed",
+    "REJECTED": "Rejected",
+    "UNREACHABLE": "Unreachable",
+    "NO_SHOW": "No Show",
+    "INVITATION_EXPIRED": "Invitation Expired"
+  },
+  "feedbackErrors": {
+    "userAlreadyExists": "A user with this email is already registered in the system.",
+    "enrollmentAlreadyActive": "An enrollment application is already in progress with this email."
+  },
+  "states": {
+    "loading": "Loading enrollments...",
+    "emptyTitle": "No enrollments found",
+    "emptyDescription": "Register your first participant to start the onboarding workflow.",
+    "errorTitle": "Error loading enrollments",
+    "errorDescription": "Could not retrieve enrollments. Please try again."
+  }
+}

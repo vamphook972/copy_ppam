@@ -1,0 +1,142 @@
+{
+  "title": "Capacitación en Sitio (SiSo)",
+  "subtitle": "Gestione la agenda y evaluación práctica de los participantes.",
+  "primaryAction": "Nueva Capacitación",
+  "new": {
+    "title": "Agendar Capacitación",
+    "subtitle": "Asigne un punto PPAM, capacitador y fecha requerida."
+  },
+  "edit": {
+    "title": "Agendar/Reprogramar Capacitación",
+    "subtitle": "Actualice la información de agendamiento de la capacitación."
+  },
+  "detail": {
+    "title": "Detalle de Capacitación",
+    "subtitle": "Información del participante, estado y evaluación práctica.",
+    "generalInfo": "Información de Capacitación",
+    "participant": "Participante",
+    "capacitator": "Capacitador",
+    "place": "Punto PPAM",
+    "scheduledAt": "Fecha Agendada",
+    "attemptNumber": "Número de Intento",
+    "status": "Estado",
+    "evaluation": "Evaluación Práctica"
+  },
+  "table": {
+    "caption": "Listado de capacitaciones",
+    "columns": {
+      "participant": "Participante",
+      "capacitator": "Capacitador",
+      "place": "Punto PPAM",
+      "scheduledAt": "Fecha Agendada",
+      "attemptNumber": "Intento",
+      "status": "Estado",
+      "createdAt": "Fecha de Creación",
+      "updatedAt": "Última Actualización"
+    },
+    "actions": "Acciones"
+  },
+  "form": {
+    "participantLabel": "Participante (Usuario)",
+    "participantPlaceholder": "Seleccione un participante",
+    "cityIdLabel": "Ciudad",
+    "cityIdPlaceholder": "Seleccione una ciudad",
+    "zoneIdLabel": "Zona",
+    "zoneIdPlaceholder": "Seleccione una zona",
+    "capacitatorIdLabel": "Capacitador",
+    "capacitatorIdPlaceholder": "Seleccione un capacitador",
+    "placeIdLabel": "Punto PPAM",
+    "placeIdPlaceholder": "Seleccione un punto de predicación",
+    "scheduledAtLabel": "Fecha y Hora de Capacitación",
+    "scheduledAtPlaceholder": "Seleccione fecha y hora",
+    "submitCreate": "Agendar Capacitación",
+    "submitEdit": "Guardar Cambios"
+  },
+  "filters": {
+    "title": "Filtros",
+    "description": "Refine la lista de capacitaciones.",
+    "searchLabel": "Buscar",
+    "searchPlaceholder": "Buscar por participante o capacitador...",
+    "statusLabel": "Estado",
+    "statusAll": "Todos los estados",
+    "statusCreated": "Creada (Pendiente de Agendar)",
+    "statusScheduled": "Agendada",
+    "statusInProgress": "En Progreso",
+    "statusReprogrammed": "Reprogramada",
+    "statusCompleted": "Aprobada",
+    "statusFailed": "Reprobada",
+    "apply": "Aplicar filtros",
+    "clear": "Limpiar filtros"
+  },
+  "actions": {
+    "schedule": "Agendar / Programar",
+    "evaluate": "Evaluar Práctica",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "view": "Ver detalle",
+    "createTitle": "Agendar Capacitación",
+    "createDescription": "Complete la información de agendamiento.",
+    "editTitle": "Reprogramar Capacitación",
+    "editDescription": "Actualice la fecha y asignaciones.",
+    "deleteTitle": "¿Eliminar Registro de Capacitación?",
+    "deleteDescription": "Esta acción no se puede deshacer.",
+    "deleteConfirm": "Eliminar",
+    "deleteCancel": "Cancelar"
+  },
+  "states": {
+    "loading": "Cargando datos...",
+    "emptyTitle": "No hay training registrados",
+    "emptyDescription": "Cree su primer registro haciendo clic en el botón superior.",
+    "errorTitle": "Error al cargar las training",
+    "errorDescription": "Ocurrió un problema al comunicarse con el servidor. Intente nuevamente."
+  },
+  "statuses": {
+    "CREATED": "Creada",
+    "SCHEDULED": "Agendada",
+    "IN_PROGRESS": "En Progreso",
+    "REPROGRAMMED": "Reprogramada",
+    "COMPLETED": "Aprobada",
+    "FAILED": "Reprobada"
+  },
+  "scheduleModal": {
+    "title": "Programar Capacitación en Sitio",
+    "subtitle": "Asigne un punto PPAM, capacitador y fecha para {name}.",
+    "loadingOptions": "Cargando opciones..."
+  },
+  "evaluateModal": {
+    "title": "Evaluación Práctica SiSo",
+    "subtitle": "Realice la calificación del checklist práctico para {name}.",
+    "capacitatorLabel": "Capacitador",
+    "placeLabel": "Lugar",
+    "scheduledAtLabel": "Fecha y Hora de Capacitación",
+    "attemptNumberLabel": "Número de Intento",
+    "checklistTitle": "Criterios de Evaluación Práctica",
+    "checklistSubtitle": "Marque los ítems aprobados durante el turno de práctica.",
+    "notesLabel": "Observaciones / Comentarios del Capacitador",
+    "notesPlaceholder": "Escriba observaciones adicionales sobre el desempeño práctico del participante...",
+    "saveProgress": "Guardar Avance",
+    "approve": "Aprobar Capacitación",
+    "reject": "Reprobar",
+    "rejectDialogTitle": "¿Reprobar Capacitación Práctica?",
+    "rejectDialogDescription": "Seleccione si desea dar la oportunidad de un 2do intento reprogramando la capacitación o darla por reprobada definitivamente.",
+    "optionRetry": "Permitir 2do Intento (Reprogramar)",
+    "optionFinalFail": "Reprobar Definitivamente (Fallida)",
+    "nextScheduledAtLabel": "Fecha y Hora de la Próxima Capacitación (2do Intento)",
+    "nextScheduledAtPlaceholder": "Seleccione fecha y hora para el nuevo intento",
+    "isRequiredLabel": "Obligatorio"
+  },
+  "notifications": {
+    "created": "Capacitación agendada exitosamente.",
+    "scheduledSuccess": "Capacitación programada con éxito.",
+    "evaluatedSuccess": "Progreso de evaluación guardado con éxito.",
+    "approvedSuccess": "¡Capacitación aprobada exitosamente!",
+    "rejectedSuccess": "Capacitación calificada como no aprobada.",
+    "errorFetchData": "No se pudieron cargar los puntos o capacitadores.",
+    "errorSchedule": "Error al programar la capacitación.",
+    "errorEvaluate": "Error al guardar la evaluación práctica.",
+    "errorApprove": "No se pudo aprobar la capacitación. Verifique que todos los ítems obligatorios estén cumplidos.",
+    "errorReject": "Error al procesar la reprobación de la capacitación.",
+    "updated": "Capacitación actualizada exitosamente.",
+    "deleted": "Registro de capacitación eliminado."
+  }
+}

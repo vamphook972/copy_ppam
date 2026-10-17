@@ -1,0 +1,31 @@
+{
+  "title": "Configuración",
+  "subtitle": "Gestiona parámetros globales y preferencias del sistema.",
+  "primaryAction": "Guardar cambios",
+  "filters": {
+    "title": "Filtros de configuración",
+    "description": "Encuentra rápidamente el ajuste que necesitas modificar.",
+    "searchLabel": "Buscar ajuste",
+    "searchPlaceholder": "Buscar por nombre o categoría",
+    "statusLabel": "Estado",
+    "statusAll": "Todos",
+    "statusEnabled": "Habilitado",
+    "statusDisabled": "Deshabilitado"
+  },
+  "table": {
+    "caption": "Listado de configuraciones",
+    "columns": {
+      "setting": "Ajuste",
+      "category": "Categoría",
+      "status": "Estado",
+      "updatedAt": "Actualizado"
+    }
+  },
+  "states": {
+    "loading": "Cargando configuraciones",
+    "emptyTitle": "No hay configuraciones para mostrar",
+    "emptyDescription": "Intenta ajustar los filtros para ver resultados.",
+    "errorTitle": "No se pudo cargar la configuración",
+    "errorDescription": "Vuelve a intentarlo en unos minutos."
+  }
+}

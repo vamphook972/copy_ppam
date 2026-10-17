@@ -1,0 +1,75 @@
+{
+  "title": "Circuits",
+  "subtitle": "Manage circuits in the system.",
+  "primaryAction": "Create Circuit",
+  "new": {
+    "title": "Create Circuit",
+    "subtitle": "Fill in the required fields to create a new circuits."
+  },
+  "edit": {
+    "title": "Edit Circuit",
+    "subtitle": "Update the information of the selected circuits."
+  },
+  "detail": {
+    "title": "Circuit Detail",
+    "subtitle": "Detailed information about the selected circuits.",
+    "generalInfo": "General Information",
+    "name": "Name",
+    "superintendent": "Superintendent",
+    "status": "Status",
+    "congregationsSection": "Congregations"
+  },
+  "table": {
+    "caption": "List of circuits",
+    "columns": {
+      "name": "Name",
+      "superintendent": "Superintendent",
+      "status": "Status",
+      "createdAt": "Created At",
+      "updatedAt": "Last Updated"
+    },
+    "actions": "Actions"
+  },
+  "form": {
+    "nameLabel": "Name",
+    "namePlaceholder": "e.g. Circuit 1",
+    "superintendentIdLabel": "Superintendent",
+    "superintendentIdPlaceholder": "Select a superintendent",
+    "statusLabel": "Status",
+    "statusActive": "Active",
+    "statusInactive": "Inactive",
+    "submitCreate": "Create Circuit",
+    "submitEdit": "Save changes"
+  },
+  "filters": {
+    "title": "Filters",
+    "description": "Refine the list to find circuits quickly.",
+    "searchLabel": "Search Circuit",
+    "searchPlaceholder": "Search by name...",
+    "statusLabel": "Status",
+    "statusAll": "All",
+    "statusActive": "Active",
+    "statusInactive": "Inactive",
+    "apply": "Apply filters",
+    "clear": "Clear filters"
+  },
+  "actions": {
+    "create": "New Circuit",
+    "edit": "Edit",
+    "delete": "Delete",
+    "view": "View detail",
+    "createTitle": "Create Circuit",
+    "createDescription": "Fill in the required fields to create a new circuit.",
+    "editTitle": "Edit Circuit",
+    "editDescription": "Update the selected circuit's information.",
+    "deleteTitle": "Delete Circuit?",
+    "deleteDescription": "This action cannot be undone. The record will be permanently deleted from the system."
+  },
+  "states": {
+    "loading": "Loading data...",
+    "emptyTitle": "No circuits found",
+    "emptyDescription": "Create your first record by clicking the button above.",
+    "errorTitle": "Error loading circuits",
+    "errorDescription": "A problem occurred while communicating with the server. Please try again."
+  }
+}

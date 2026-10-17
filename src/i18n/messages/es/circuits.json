@@ -1,0 +1,75 @@
+{
+  "title": "Circuitos",
+  "subtitle": "Gestione los registros de circuitos en el sistema.",
+  "primaryAction": "Crear Circuito",
+  "new": {
+    "title": "Crear Circuito",
+    "subtitle": "Diligencie los campos requeridos para crear un nuevo circuito."
+  },
+  "edit": {
+    "title": "Editar Circuito",
+    "subtitle": "Actualice la información de la circuito seleccionada."
+  },
+  "detail": {
+    "title": "Detalle de Circuito",
+    "subtitle": "Información detallada de la circuito.",
+    "generalInfo": "Información General",
+    "name": "Nombre",
+    "superintendent": "Superintendente",
+    "status": "Estado",
+    "congregationsSection": "Congregaciones"
+  },
+  "table": {
+    "caption": "Listado de circuitos",
+    "columns": {
+      "name": "Nombre",
+      "superintendent": "Superintendente",
+      "status": "Estado",
+      "createdAt": "Fecha de Creación",
+      "updatedAt": "Última Actualización"
+    },
+    "actions": "Acciones"
+  },
+  "form": {
+    "nameLabel": "Nombre",
+    "namePlaceholder": "Ej: Circuit 1",
+    "superintendentIdLabel": "Superintendente",
+    "superintendentIdPlaceholder": "Seleccione un superintendente",
+    "statusLabel": "Estado",
+    "statusActive": "Activo",
+    "statusInactive": "Inactivo",
+    "submitCreate": "Crear Circuito",
+    "submitEdit": "Guardar cambios"
+  },
+  "filters": {
+    "title": "Filtros",
+    "description": "Refine la lista para encontrar circuitos rápidamente.",
+    "searchLabel": "Buscar Circuito",
+    "searchPlaceholder": "Buscar por nombre...",
+    "statusLabel": "Estado",
+    "statusAll": "Todos",
+    "statusActive": "Activo",
+    "statusInactive": "Inactivo",
+    "apply": "Aplicar filtros",
+    "clear": "Limpiar filtros"
+  },
+  "actions": {
+    "create": "Nuevo Circuito",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "view": "Ver detalle",
+    "createTitle": "Crear Circuito",
+    "createDescription": "Diligencie los campos requeridos para crear un nuevo circuito.",
+    "editTitle": "Editar Circuito",
+    "editDescription": "Actualice la información del circuito seleccionado.",
+    "deleteTitle": "¿Eliminar Circuito?",
+    "deleteDescription": "Esta acción no se puede deshacer. El registro será eliminado permanentemente del sistema."
+  },
+  "states": {
+    "loading": "Cargando datos...",
+    "emptyTitle": "No hay circuitos registrados",
+    "emptyDescription": "Cree su primer registro haciendo clic en el botón superior.",
+    "errorTitle": "Error al cargar los circuitos",
+    "errorDescription": "Ocurrió un problema al comunicarse con el servidor. Intente nuevamente."
+  }
+}

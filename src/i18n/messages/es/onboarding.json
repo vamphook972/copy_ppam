@@ -1,0 +1,18 @@
+{
+  "planning": {
+    "title": "Configuración de planeación de capacitación",
+    "subtitle": "Semaforización de alertas sobre solicitudes acumuladas y días sin capacitación.",
+    "loading": "Calculando indicadores de planeación...",
+    "errorTitle": "No pudimos calcular los indicadores",
+    "errorDescription": "Ocurrió un problema al consultar las solicitudes S-73 y las reuniones de orientación.",
+    "retry": "Reintentar",
+    "formsLabel": "Formularios vigentes pendientes",
+    "formsGoal": "Meta de la ciudad: {goal}",
+    "daysLabel": "Días sin capacitación",
+    "daysGoal": "Meta de la ciudad: {goal} días",
+    "noOrientation": "Sin registro",
+    "alertTitle": "TIENES NOTIFICACIONES PENDIENTES POR VER",
+    "alertDescription": "Ya es posible hacer una nueva capacitación de la PPAM. Para tramitar los formularios de participantes nuevos",
+    "alertLink": "da click aquí"
+  }
+}

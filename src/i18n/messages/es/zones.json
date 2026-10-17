@@ -1,0 +1,114 @@
+{
+  "title": "Zonas",
+  "subtitle": "Gestiona las zonas asignadas a las ciudades.",
+  "primaryAction": "Crear zona",
+  "actions": {
+    "createTitle": "Crear zona",
+    "createDescription": "Crea una nueva zona en el sistema.",
+    "editTitle": "Editar zona",
+    "editDescription": "Modifica los detalles de la zona seleccionada.",
+    "view": "Ver",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "deleting": "Eliminando...",
+    "deleteTitle": "Eliminar zona",
+    "deleteDescription": "¿Estás seguro de que deseas eliminar a {name}?",
+    "deleteDescriptionFallback": "¿Estás seguro de que deseas eliminar esta zona?"
+  },
+  "filters": {
+    "title": "Filtros",
+    "description": "Filtra las zonas por ciudad o estado de activación",
+    "searchLabel": "Búsqueda rápida",
+    "searchPlaceholder": "Buscar zona...",
+    "statusLabel": "Estado",
+    "statusAll": "Todos",
+    "statusActive": "Activo",
+    "statusInactive": "Inactivo",
+    "cityIdLabel": "Ciudad",
+    "apply": "Aplicar filtros"
+  },
+  "table": {
+    "caption": "Listado de zonas",
+    "columns": {
+      "name": "Nombre",
+      "city": "Ciudad",
+      "status": "Estado",
+      "updatedAt": "Última Actualización"
+    },
+    "actions": "Acciones"
+  },
+  "form": {
+    "nameLabel": "Nombre de la zona",
+    "namePlaceholder": "Ingresa el nombre de la zona",
+    "cityIdLabel": "Ciudad",
+    "managerUserIdLabel": "Superintendente de Zona (Manager)",
+    "statusLabel": "Estado",
+    "statusActive": "Activo",
+    "statusInactive": "Inactivo",
+    "submitCreate": "Crear zona",
+    "submitEdit": "Guardar cambios"
+  },
+  "detail": {
+    "generalInfo": "Información general",
+    "superintendentsSection": "Superintendentes de Zona",
+    "placesSection": "Lugares asignados a esta zona",
+    "name": "Nombre",
+    "city": "Ciudad",
+    "manager": "Superintendente de Zona",
+    "status": "Estado"
+  },
+  "managers": {
+    "activeTitle": "Superintendente Activo Actual",
+    "statusActive": "ACTIVO",
+    "statusUnassigned": "SIN ASIGNAR",
+    "emailLabel": "Email",
+    "phoneLabel": "Teléfono",
+    "noActiveManager": "Esta zona no tiene un Superintendente de Zona activo asignado actualmente.",
+    "assignTitle": "Asignar o Cambiar Superintendente de Zona",
+    "selectLabel": "Seleccionar Superintendente de Zona",
+    "selectPlaceholder": "-- Seleccionar usuario --",
+    "assigning": "Asignando...",
+    "assignButton": "Asignar Superintendente",
+    "assignNotice": "Nota: Al asignar un nuevo superintendente, cualquier responsable activo previo de esta zona pasará a estado INACTIVO automáticamente en el historial.",
+    "historyTitle": "Historial de Superintendentes de la Zona",
+    "loadingHistory": "Cargando historial de asignaciones...",
+    "emptyHistory": "No hay registro histórico de asignaciones para esta zona.",
+    "tableSuperintendent": "Superintendente",
+    "tableEmail": "Email",
+    "tableStatus": "Estado",
+    "tableAssignmentDate": "Fecha Asignación"
+  },
+  "states": {
+    "loading": "Cargando zonas",
+    "emptyTitle": "No hay zonas para mostrar",
+    "emptyDescription": "Ajusta los filtros o crea una nueva zona.",
+    "errorTitle": "No se pudo cargar la lista de zonas",
+    "errorDescription": "Ocurrió un error al cargar las zonas. Intenta de nuevo más tarde."
+  },
+  "masterSchedule": {
+    "tabTitle": "Matriz Horaria Base",
+    "description": "Esta matriz define los turnos plantilla por defecto para todos los puntos PPAM de esta zona.",
+    "addTurnTitle": "Nueva Franja Horaria Base",
+    "dayOfWeekLabel": "Día de la semana",
+    "startTimeLabel": "Hora de inicio",
+    "endTimeLabel": "Hora de fin",
+    "minParticipantsLabel": "Participantes mín.",
+    "maxParticipantsLabel": "Participantes máx.",
+    "addTurnButton": "Agregar Franja Base",
+    "addingTurn": "Guardando...",
+    "weeklyMatrixTitle": "Matriz Semanal Base",
+    "emptySchedule": "No hay franjas horarias registradas en la matriz base de esta zona.",
+    "activeStatus": "ACTIVO",
+    "deactivateButton": "Desactivar",
+    "deactivating": "Desactivando...",
+    "days": {
+      "0": "Domingo",
+      "1": "Lunes",
+      "2": "Martes",
+      "3": "Miércoles",
+      "4": "Jueves",
+      "5": "Viernes",
+      "6": "Sábado"
+    }
+  }
+}

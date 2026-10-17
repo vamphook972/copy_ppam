@@ -1,0 +1,94 @@
+{
+  "title": "Administración de Roles",
+  "subtitle": "Supervisa los roles del sistema, consulta los miembros asignados y gestiona sus permisos.",
+  "searchPlaceholder": "Buscar rol por nombre...",
+  "emptyTitle": "No se encontraron roles",
+  "emptyDescription": "Intenta cambiar los filtros de búsqueda o categoría.",
+  "filterAll": "Todos los roles",
+  "categories": {
+    "ADMINISTRATION": "Administración",
+    "SUPERVISION": "Supervisión",
+    "OPERATIONS": "Operaciones",
+    "TRAINING": "Capacitación",
+    "SUPPORT": "Soporte"
+  },
+  "stats": {
+    "totalRoles": "Roles del Sistema",
+    "assignableRoles": "Roles Asignables",
+    "activeVolunteers": "Voluntarios Asignados"
+  },
+  "actions": {
+    "viewMembers": "Ver miembros",
+    "manageRoles": "Gestionar roles",
+    "managePermissions": "Permisos",
+    "createRole": "Nuevo Rol",
+    "deleteRole": "Eliminar rol"
+  },
+  "membersDialog": {
+    "title": "Miembros del Rol: {name}",
+    "description": "Usuarios con el rol asignado en este tenant.",
+    "searchPlaceholder": "Buscar miembro por nombre o correo...",
+    "emptyTitle": "Sin miembros asignados",
+    "emptyDescription": "Actualmente ningún usuario tiene este rol asignado en el tenant.",
+    "totalMembers": "{count} miembros asignados",
+    "editUserRoles": "Editar roles del usuario"
+  },
+  "permissionsDialog": {
+    "title": "Permisos del Rol: {name}",
+    "description": "Los cambios afectarán únicamente a los usuarios con este rol en su congregación.",
+    "searchPlaceholder": "Buscar permisos o acciones...",
+    "selectAll": "Marcar todos",
+    "deselectAll": "Desmarcar todos",
+    "restoreDefaults": "Restaurar por defecto",
+    "restoreConfirmTitle": "¿Restaurar permisos por defecto?",
+    "restoreConfirmDesc": "Esta acción restablecerá los permisos a los valores estándar recomendados por el sistema para este rol.",
+    "lockedTooltip": "Permiso base protegido del Coordinador",
+    "toggleModule": "Todo el módulo",
+    "noPermissionsFound": "No se encontraron permisos coincidentes",
+    "unsavedChanges": "{count} cambios pendientes",
+    "permissionsSaved": "{count} permisos activos",
+    "discard": "Descartar",
+    "save": "Guardar permisos",
+    "saving": "Guardando...",
+    "saveSuccess": "Permisos actualizados correctamente",
+    "restoreSuccess": "Permisos restaurados a valores predeterminados",
+    "modules": {
+      "attendance": "Asistencia y Presencia",
+      "city": "Ciudades",
+      "circuit": "Circuitos",
+      "circuits": "Circuitos",
+      "congregation": "Congregaciones",
+      "enrollment": "Inscripciones e Interesados",
+      "meeting": "Reuniones Generales",
+      "participant": "Participantes",
+      "permission": "Permisos del Sistema",
+      "place": "Lugares y Puntos de Exhibición",
+      "profile": "Perfil Personal",
+      "role": "Roles y Permisos",
+      "setting": "Ajustes Generales",
+      "settings": "Ajustes Generales",
+      "tenant": "Configuración del Tenant",
+      "training": "Capacitaciones",
+      "turn": "Turnos y Horarios",
+      "turns": "Turnos y Horarios",
+      "user": "Usuarios y Voluntarios",
+      "zone": "Zonas Territoriales"
+    }
+  },
+  "createRoleDialog": {
+    "title": "Crear Rol Personalizado",
+    "description": "Define un nuevo rol operativo para tu congregación.",
+    "nameLabel": "Nombre del Rol",
+    "namePlaceholder": "EJ: ASISTENTE_LOGISTICA",
+    "create": "Crear rol",
+    "creating": "Creando...",
+    "createSuccess": "Rol creado correctamente"
+  },
+  "deleteRoleDialog": {
+    "title": "¿Eliminar Rol '{name}'?",
+    "description": "Esta acción eliminará el rol personalizado de tu congregación. Solo se puede eliminar si no tiene voluntarios asignados.",
+    "delete": "Eliminar",
+    "deleting": "Eliminando...",
+    "deleteSuccess": "Rol eliminado correctamente"
+  }
+}

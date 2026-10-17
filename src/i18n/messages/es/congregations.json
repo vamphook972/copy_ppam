@@ -1,0 +1,80 @@
+{
+  "title": "Congregaciones",
+  "subtitle": "Gestione los registros de congregaciones en el sistema.",
+  "primaryAction": "Crear Congregación",
+  "new": {
+    "title": "Crear Congregación",
+    "subtitle": "Diligencie los campos requeridos para crear una nueva congregación."
+  },
+  "edit": {
+    "title": "Editar Congregación",
+    "subtitle": "Actualice la información de la congregación seleccionada."
+  },
+  "detail": {
+    "title": "Detalle de Congregación",
+    "subtitle": "Información detallada de la congregación.",
+    "generalInfo": "Información General",
+    "name": "Nombre",
+    "city": "Ciudad",
+    "circuit": "Circuito",
+    "status": "Estado",
+    "membersSection": "Miembros"
+  },
+  "table": {
+    "caption": "Listado de congregaciones",
+    "columns": {
+      "name": "Nombre",
+      "city": "Ciudad",
+      "circuit": "Circuito",
+      "status": "Estado",
+      "createdAt": "Fecha de Creación",
+      "updatedAt": "Última Actualización"
+    },
+    "actions": "Acciones"
+  },
+  "form": {
+    "nameLabel": "Nombre",
+    "namePlaceholder": "Ej: Congregation 1",
+    "cityIdLabel": "Ciudad",
+    "cityIdPlaceholder": "Seleccione una ciudad",
+    "circuitIdLabel": "Circuito",
+    "circuitIdPlaceholder": "Seleccione un circuito",
+    "statusLabel": "Estado",
+    "statusActive": "Activo",
+    "statusInactive": "Inactivo",
+    "submitCreate": "Crear congregación",
+    "submitEdit": "Guardar cambios"
+  },
+  "filters": {
+    "title": "Filtros",
+    "description": "Refine la lista para encontrar congregaciones rápidamente.",
+    "searchLabel": "Buscar congregación",
+    "searchPlaceholder": "Buscar por nombre...",
+    "cityIdLabel": "Ciudad",
+    "circuitIdLabel": "Circuito",
+    "statusLabel": "Estado",
+    "statusAll": "Todos",
+    "statusActive": "Activo",
+    "statusInactive": "Inactivo",
+    "apply": "Aplicar filtros"
+  },
+  "actions": {
+    "create": "Nuevo Congregation",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "view": "Ver detalle",
+    "createTitle": "Crear Congregation",
+    "createDescription": "Diligencie los campos requeridos para crear un nuevo congregation.",
+    "editTitle": "Editar Congregation",
+    "editDescription": "Actualice la información del congregation seleccionado.",
+    "deleteTitle": "¿Eliminar Congregation?",
+    "deleteDescription": "Esta acción no se puede deshacer. El registro será eliminado permanentemente del sistema."
+  },
+  "states": {
+    "loading": "Cargando datos...",
+    "emptyTitle": "No hay congregaciones registradas",
+    "emptyDescription": "Cree su primera congregación haciendo clic en el botón superior.",
+    "errorTitle": "Error al cargar las congregaciones",
+    "errorDescription": "Ocurrió un problema al comunicarse con el servidor. Intente nuevamente."
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "title": "Role Administration",
+  "subtitle": "Oversee system roles, inspect assigned members, and manage permissions.",
+  "searchPlaceholder": "Search role by name...",
+  "emptyTitle": "No roles found",
+  "emptyDescription": "Try changing the search or category filters.",
+  "filterAll": "All roles",
+  "categories": {
+    "ADMINISTRATION": "Administration",
+    "SUPERVISION": "Supervision",
+    "OPERATIONS": "Operations",
+    "TRAINING": "Training",
+    "SUPPORT": "Support"
+  },
+  "stats": {
+    "totalRoles": "System Roles",
+    "assignableRoles": "Assignable Roles",
+    "activeVolunteers": "Assigned Volunteers"
+  },
+  "actions": {
+    "viewMembers": "View members",
+    "manageRoles": "Manage roles",
+    "managePermissions": "Permissions",
+    "createRole": "New Role",
+    "deleteRole": "Delete role"
+  },
+  "membersDialog": {
+    "title": "Role Members: {name}",
+    "description": "Users assigned to this role in this tenant.",
+    "searchPlaceholder": "Search member by name or email...",
+    "emptyTitle": "No members assigned",
+    "emptyDescription": "Currently no users have this role assigned in this tenant.",
+    "totalMembers": "{count} assigned members",
+    "editUserRoles": "Edit user roles"
+  },
+  "permissionsDialog": {
+    "title": "Role Permissions: {name}",
+    "description": "Changes will only affect volunteers with this role in your congregation.",
+    "searchPlaceholder": "Search permissions or actions...",
+    "selectAll": "Select all",
+    "deselectAll": "Deselect all",
+    "restoreDefaults": "Restore defaults",
+    "restoreConfirmTitle": "Restore default permissions?",
+    "restoreConfirmDesc": "This action will reset the role permissions to the standard baseline recommended by the system.",
+    "lockedTooltip": "Protected Coordinator base permission",
+    "toggleModule": "Entire module",
+    "noPermissionsFound": "No permissions match your search",
+    "unsavedChanges": "{count} pending changes",
+    "permissionsSaved": "{count} permissions saved",
+    "discard": "Discard",
+    "save": "Save permissions",
+    "saving": "Saving...",
+    "saveSuccess": "Permissions updated successfully",
+    "restoreSuccess": "Permissions restored to system defaults",
+    "modules": {
+      "attendance": "Attendance & Presence",
+      "city": "Cities",
+      "circuit": "Circuits",
+      "circuits": "Circuits",
+      "congregation": "Congregations",
+      "enrollment": "Enrollment & Inquiries",
+      "meeting": "General Meetings",
+      "participant": "Participants",
+      "permission": "System Permissions",
+      "place": "Locations & Exhibition Points",
+      "profile": "Personal Profile",
+      "role": "Roles & Permissions",
+      "setting": "General Settings",
+      "settings": "General Settings",
+      "tenant": "Tenant Configuration",
+      "training": "Trainings",
+      "turn": "Shifts & Schedules",
+      "turns": "Shifts & Schedules",
+      "user": "Users & Volunteers",
+      "zone": "Territorial Zones"
+    }
+  },
+  "createRoleDialog": {
+    "title": "Create Custom Role",
+    "description": "Define a new operational role for your congregation.",
+    "nameLabel": "Role Name",
+    "namePlaceholder": "EX: LOGISTICS_ASSISTANT",
+    "create": "Create role",
+    "creating": "Creating...",
+    "createSuccess": "Role created successfully"
+  },
+  "deleteRoleDialog": {
+    "title": "Delete Role '{name}'?",
+    "description": "This action will permanently delete the custom role from your congregation. It can only be deleted if no volunteers are assigned.",
+    "delete": "Delete",
+    "deleting": "Deleting...",
+    "deleteSuccess": "Role deleted successfully"
+  }
+}

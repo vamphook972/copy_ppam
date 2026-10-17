@@ -1,0 +1,41 @@
+{
+  "title": "Contáctanos",
+  "description": "Si tienes alguna pregunta, comentario o consulta, no dudes en ponerte en contacto con nosotros. Valoramos tu opinión y haremos todo lo posible por responderte rápidamente.",
+  "nameField": "Nombre",
+  "emailField": "Correo electrónico",
+  "messageField": "Mensaje",
+  "submitButton": "Enviar",
+  "successMessage": "¡Gracias por contactarnos! Nos pondremos en contacto contigo en breve.",
+  "errorMessage": "¡Vaya! Algo salió mal. Por favor, inténtalo de nuevo más tarde.",
+  "contactInfo": {
+    "title": "Información de contacto"
+  },
+  "responseTime": {
+    "title": "Tiempo estimado",
+    "description": "Respuesta en un plazo de 24 a 48 horas laborales."
+  },
+  "supportLink": {
+    "title": "¿Tienes dudas sobre el uso de la aplicación?",
+    "description": "Visitar Centro de Soporte"
+  },
+  "categoryField": {
+    "title": "Categoría",
+    "general": "Consulta general",
+    "technical": "Soporte técnico",
+    "access": "Problemas de acceso",
+    "other": "Otro"
+  },
+  "placeholder": {
+    "name": "Tu nombre completo",
+    "email": "[EMAIL_ADDRESS]",
+    "message": "Escribe los detalles de tu consulta aquí..."
+  },
+  "button": {
+    "submit": "Enviar",
+    "sending": "Enviando..."
+  },
+  "form": {
+    "title": "Formulario de contacto",
+    "description": "Envíanos un mensaje y te responderemos lo antes posible."
+  }
+}

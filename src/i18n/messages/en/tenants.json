@@ -1,0 +1,168 @@
+{
+  "title": "Tenant Management",
+  "subtitle": "Manage system regions, organizations, and configurations",
+  "primaryAction": "Create Tenant",
+  "actions": {
+    "createTitle": "New Tenant",
+    "createDescription": "Create a new organization or region with its initial settings.",
+    "editTitle": "Edit Tenant",
+    "editDescription": "Modify tenant details and configurations.",
+    "detailTitle": "Tenant Details",
+    "changeStatus": "Change Status",
+    "changeStatusTitle": "Change tenant status",
+    "changeStatusDescription": "Are you sure you want to change the status of the tenant {name}?",
+    "changeStatusDescriptionFallback": "Are you sure you want to change the status of the tenant?",
+    "changeStatusLoading": "Changing tenant status..."
+  },
+  "tabs": {
+    "config": "Configuration",
+    "coordinators": "Coordinators",
+    "logs": "Notification Logs"
+  },
+  "filters": {
+    "title": "Filters",
+    "description": "Filter tenants by status or name",
+    "searchLabel": "Quick search",
+    "searchPlaceholder": "Search by tenant name...",
+    "statusLabel": "Status",
+    "statusAll": "All statuses",
+    "statusActive": "Active Only",
+    "statusSuspended": "Suspended Only",
+    "apply": "Apply filters"
+  },
+  "table": {
+    "caption": "List of registered tenants",
+    "columns": {
+      "name": "Name",
+      "status": "Status",
+      "createdAt": "Created At",
+      "updatedAt": "Last Updated"
+    },
+    "actions": "Actions"
+  },
+  "states": {
+    "loading": "Loading tenants...",
+    "emptyTitle": "No tenants found",
+    "emptyDescription": "No tenant has been registered in the system yet.",
+    "errorTitle": "Failed to load",
+    "errorDescription": "We couldn't load the account data."
+  },
+  "form": {
+    "nameLabel": "Tenant Name",
+    "namePlaceholder": "e.g. Central Region",
+    "configTabTitle": "Configuration",
+    "configTabDescription": "Configuration settings for the tenant.",
+    "featureFlagLabel": "Enable Feature Flag",
+    "featureFlagDescription": "Turn experimental features on or off for this region.",
+    "invitationExpiryDaysLabel": "Invitation Expiry Days",
+    "invitationExpiryDaysPlaceholder": "Enter the number of days",
+    "maxFormsPendingLabel": "Max Forms Pending",
+    "maxFormsPendingPlaceholder": "Enter the maximum number of forms pending",
+    "maxDaysWithoutCapacitationLabel": "Max Days Without Capacitation",
+    "maxDaysWithoutCapacitationPlaceholder": "Enter the maximum number of days without capacitation",
+    "whatsappLabel": "WhatsApp Notifications",
+    "whatsappDescription": "Enable or disable notifications by WhatsApp for the tenant.",
+    "whatsappNumberLabel": "WhatsApp Number",
+    "whatsappNumberPlaceholder": "Enter the WhatsApp number",
+    "maxZonesPerManagerLabel": "Max Zones Per Manager",
+    "maxZonesPerManagerPlaceholder": "Enter the maximum number of zones per manager",
+    "centerCoordinatesTitle": "Map Center Coordinates",
+    "centerCoordinatesDescription": "Default central latitude and longitude for the interactive map of places and shifts.",
+    "centerLatLabel": "Center Latitude",
+    "centerLatPlaceholder": "e.g. 4.7110",
+    "centerLngLabel": "Center Longitude",
+    "centerLngPlaceholder": "e.g. -74.0721",
+    "submitCreate": "Create Tenant",
+    "submitUpdate": "Save Changes",
+    "view": "View Details",
+    "statusActive": "Active",
+    "statusSuspended": "Suspended"
+  },
+  "coordinators": {
+    "title": "Assigned Coordinators",
+    "addButton": "Add Coordinator",
+    "emptyTitle": "No coordinators",
+    "emptyDescription": "This tenant has no assigned coordinators.",
+    "columns": {
+      "email": "Email Address",
+      "role": "Role",
+      "status": "Status"
+    },
+    "form": {
+      "title": "Add New Coordinator",
+      "emailLabel": "Email Address",
+      "firstNameLabel": "First Name",
+      "lastNameLabel": "Last Name",
+      "phoneLabel": "Primary Phone",
+      "alternatePhoneLabel": "Alternate Phone",
+      "submit": "Assign Coordinator"
+    }
+  },
+  "privilege": {
+    "PUBLISHER": "Publisher",
+    "MINISTERIAL_SERVANT": "Ministerial Servant",
+    "ELDER": "Elder",
+    "AUXILIARY_PIONEER": "Auxiliary Pioneer",
+    "REGULAR_PIONEER": "Regular Pioneer",
+    "SPECIAL_PIONEER": "Special Pioneer",
+    "BETHEL_FAMILY_MEMBER": "Bethel Family Member",
+    "CIRCUIT_OVERSEER": "Circuit Overseer",
+    "CIRCUIT_OVERSEER_WIFE": "Circuit Overseer Wife"
+  },
+  "privilegeLimits": {
+    "loading": "Loading privilege matrix...",
+    "title": "Maximum Shifts per Participant",
+    "description": "Control matrix of allowed turns per Service Privilege.",
+    "readOnly": "Read Only Mode",
+    "privilege": "Privilege",
+    "type": "Type",
+    "maxDaily": "Max. Daily",
+    "maxWeekly": "Max. Weekly",
+    "maxMonthly": "Max. Monthly",
+    "save": "Save changes",
+    "saving": "Saving...",
+    "updated": "Privilege limits updated successfully.",
+    "error": "Error updating limits."
+  },
+  "logs": {
+    "title": "Sent Notification Logs",
+    "emptyTitle": "No notification logs",
+    "emptyDescription": "No notifications have been sent for this tenant yet.",
+    "columns": {
+      "type": "Event Type",
+      "subject": "Subject",
+      "recipients": "Recipient(s)",
+      "status": "Status",
+      "deliveredAt": "Delivered Date",
+      "errorMessage": "Error"
+    },
+    "modal": {
+      "title": "Notification Details",
+      "errorMessageTitle": "Delivery Error Message",
+      "htmlPreviewTitle": "Sent HTML Content"
+    }
+  },
+  "settingsPanel": {
+    "tenantInfoTitle": "Tenant Information",
+    "generalSectionTitle": "General & Operational Settings",
+    "generalSectionDescription": "Global parameters regulating tenant access and capacity limits.",
+    "notificationsSectionTitle": "Communications & Notifications",
+    "notificationsSectionDescription": "Messaging integration and alerts for participants.",
+    "privilegeSectionTitle": "Service Privilege Shift Limits Matrix",
+    "privilegeSectionDescription": "Operational restrictions for daily, weekly, and monthly shifts based on assigned theocratic privilege.",
+    "sisoChecklistSectionTitle": "SiSo Practical Evaluation Checklist",
+    "sisoChecklistSectionDescription": "Configure practical items evaluated by the assigned trainer. Set which items are required to pass.",
+    "addItem": "Add Checklist Item",
+    "isRequired": "Required to Pass",
+    "optional": "Optional",
+    "itemLabelPlaceholder": "Enter practical evaluation item label...",
+    "categoryCongregation": "Congregation",
+    "categoryService": "Service",
+    "discardChanges": "Discard Changes",
+    "saveChanges": "Save Changes",
+    "savingChanges": "Saving...",
+    "successUpdate": "Settings updated successfully.",
+    "errorUpdate": "An error occurred while saving settings.",
+    "readOnlyNotice": "Read-only mode: Your role does not have permissions to modify this configuration."
+  }
+}

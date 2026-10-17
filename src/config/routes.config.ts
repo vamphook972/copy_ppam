@@ -1,0 +1,18 @@
+export const Routes = {
+  home: "/",
+  dashboard: "/dashboard",
+  users: "/users",
+  roles: "/roles",
+  settings: "/settings",
+  geography: "/geography",
+  cities: "/cities",
+  zones: "/zones",
+  places: "/places",
+  congregations: "/congregations",
+  enrollments: "/enrollments",
+  meetings: "/meetings",
+  training: "/training",
+  scheduling: "/scheduling",
+  support: "/support",
+  register: "/register",
+} as const;

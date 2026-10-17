@@ -1,0 +1,41 @@
+{
+  "title": "Contact Us",
+  "description": "If you have any questions, feedback, or inquiries, please feel free to reach out to us. We value your input and will do our best to respond promptly.",
+  "nameField": "Name",
+  "emailField": "Email",
+  "messageField": "Message",
+  "submitButton": "Submit",
+  "successMessage": "Thank you for contacting us! We will get back to you shortly.",
+  "errorMessage": "Oops! Something went wrong. Please try again later.",
+  "contactInfo": {
+    "title": "Contact Information"
+  },
+  "responseTime": {
+    "title": "Estimated Time",
+    "description": "Response within 24 to 48 business hours."
+  },
+  "supportLink": {
+    "title": "Do you have questions about the application?",
+    "description": "Visit Support Center"
+  },
+  "categoryField": {
+    "title": "Category",
+    "general": "General Inquiry",
+    "technical": "Technical Support",
+    "access": "Access Issues",
+    "other": "Other"
+  },
+  "placeholder": {
+    "name": "Your full name",
+    "email": "[EMAIL_ADDRESS]",
+    "message": "Write the details of your inquiry here..."
+  },
+  "button": {
+    "submit": "Submit",
+    "sending": "Sending..."
+  },
+  "form": {
+    "title": "Contact Form",
+    "description": "Send us a message and we will get back to you as soon as possible."
+  }
+}

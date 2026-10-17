@@ -1,0 +1,168 @@
+{
+  "title": "Gestión de Tenants",
+  "subtitle": "Administra las regiones, organizaciones y configuraciones del sistema",
+  "primaryAction": "Crear Tenant",
+  "actions": {
+    "createTitle": "Nuevo Tenant",
+    "createDescription": "Crea una nueva organización o región con sus configuraciones iniciales.",
+    "editTitle": "Editar Tenant",
+    "editDescription": "Modifica los detalles y configuraciones del tenant.",
+    "detailTitle": "Detalle del Tenant",
+    "changeStatus": "Cambiar Estado",
+    "changeStatusTitle": "Cambiar estado del tenant",
+    "changeStatusDescription": "¿Estás seguro de que deseas cambiar el estado del tenant {name}?",
+    "changeStatusDescriptionFallback": "¿Estás seguro de que deseas cambiar el estado del tenant?",
+    "changeStatusLoading": "Cambiando estado del tenant..."
+  },
+  "tabs": {
+    "config": "Configuración",
+    "coordinators": "Coordinadores",
+    "logs": "Logs de Notificaciones"
+  },
+  "filters": {
+    "title": "Filtros",
+    "description": "Filtra los tenants por estado o nombre",
+    "searchLabel": "Búsqueda rápida",
+    "searchPlaceholder": "Buscar por nombre de tenant...",
+    "statusLabel": "Estado",
+    "statusAll": "Todos los estados",
+    "statusActive": "Solo Activos",
+    "statusSuspended": "Solo Suspendidos",
+    "apply": "Aplicar filtros"
+  },
+  "table": {
+    "caption": "Lista de tenants registrados",
+    "columns": {
+      "name": "Nombre",
+      "status": "Estado",
+      "createdAt": "Fecha de Creación",
+      "updatedAt": "Última Actualización"
+    },
+    "actions": "Acciones"
+  },
+  "states": {
+    "loading": "Cargando lista de cuentas...",
+    "emptyTitle": "No hay cuentas",
+    "emptyDescription": "Aún no se ha registrado ningún tenant en el sistema.",
+    "errorTitle": "Error al cargar",
+    "errorDescription": "No fue posible cargar los datos de la cuenta."
+  },
+  "form": {
+    "nameLabel": "Nombre del Tenant",
+    "namePlaceholder": "ej. Región Central",
+    "configTabTitle": "Configuración",
+    "configTabDescription": "Configuraciones del Tenant",
+    "featureFlagLabel": "Habilitar Feature Flag",
+    "featureFlagDescription": "Activa o desactiva las funcionalidades experimentales para esta región.",
+    "invitationExpiryDaysLabel": "Días de expiración de invitación",
+    "invitationExpiryDaysPlaceholder": "Ingrese la cantidad de días",
+    "maxFormsPendingLabel": "Número máximo de formularios pendientes",
+    "maxFormsPendingPlaceholder": "Ingrese el número máximo de formularios pendientes",
+    "maxDaysWithoutCapacitationLabel": "Número máximo de días sin capacitación",
+    "maxDaysWithoutCapacitationPlaceholder": "Ingrese el número máximo de días sin capacitación",
+    "whatsappLabel": "Notificaciones por WhatsApp",
+    "whatsappDescription": "Activa o desactiva las notificaciones por WhatsApp para el tenant.",
+    "whatsappNumberLabel": "Número de WhatsApp",
+    "whatsappNumberPlaceholder": "Ingrese el número de WhatsApp",
+    "maxZonesPerManagerLabel": "Número máximo de zonas por encargado",
+    "maxZonesPerManagerPlaceholder": "Ingrese el número máximo de zonas por encargado",
+    "centerCoordinatesTitle": "Coordenadas Centrales del Mapa",
+    "centerCoordinatesDescription": "Define la latitud y longitud central predeterminada para el mapa interactivo de lugares y turnos.",
+    "centerLatLabel": "Latitud Central",
+    "centerLatPlaceholder": "ej. 4.7110",
+    "centerLngLabel": "Longitud Central",
+    "centerLngPlaceholder": "ej. -74.0721",
+    "submitCreate": "Crear Tenant",
+    "submitUpdate": "Guardar Cambios",
+    "view": "Ver Detalle",
+    "statusActive": "Activo",
+    "statusSuspended": "Suspendido"
+  },
+  "coordinators": {
+    "title": "Coordinadores Asignados",
+    "addButton": "Agregar Coordinador",
+    "emptyTitle": "Sin coordinadores",
+    "emptyDescription": "Este tenant no tiene coordinadores asignados.",
+    "columns": {
+      "email": "Correo Electrónico",
+      "role": "Rol",
+      "status": "Estado"
+    },
+    "form": {
+      "title": "Agregar Nuevo Coordinador",
+      "emailLabel": "Correo Electrónico",
+      "firstNameLabel": "Nombre",
+      "lastNameLabel": "Apellido",
+      "phoneLabel": "Teléfono Principal",
+      "alternatePhoneLabel": "Teléfono Alternativo",
+      "submit": "Asignar Coordinador"
+    }
+  },
+  "privilege": {
+    "PUBLISHER": "Publicador",
+    "MINISTERIAL_SERVANT": "Siervo Ministerial",
+    "ELDER": "Anciano",
+    "AUXILIARY_PIONEER": "Precursor Auxiliar",
+    "REGULAR_PIONEER": "Precursor Regular",
+    "SPECIAL_PIONEER": "Precursor Especial",
+    "BETHEL_FAMILY_MEMBER": "Miembro de la Familia Betel",
+    "CIRCUIT_OVERSEER": "Super de Circuito",
+    "CIRCUIT_OVERSEER_WIFE": "Esposa del Super de Circuito"
+  },
+  "privilegeLimits": {
+    "loading": "Cargando matriz de límites...",
+    "title": "Máximo de Turnos por Participante",
+    "description": "Matriz de control de turnos permitidos por Privilegio de Servicio.",
+    "readOnly": "Modo Solo Lectura",
+    "privilege": "Privilegio",
+    "type": "Tipo",
+    "maxDaily": "Máx. Diario",
+    "maxWeekly": "Máx. Semanal",
+    "maxMonthly": "Máx. Mensual",
+    "save": "Guardar cambios",
+    "saving": "Guardando...",
+    "updated": "Límites por privilegio actualizados exitosamente.",
+    "error": "Error al actualizar los límites."
+  },
+  "logs": {
+    "title": "Logs de Notificaciones Enviadas",
+    "emptyTitle": "Sin logs de notificaciones",
+    "emptyDescription": "No se han enviado notificaciones para este tenant aún.",
+    "columns": {
+      "type": "Tipo de Evento",
+      "subject": "Asunto",
+      "recipients": "Destinatario(s)",
+      "status": "Estado",
+      "deliveredAt": "Fecha de Envío",
+      "errorMessage": "Error"
+    },
+    "modal": {
+      "title": "Detalle de Notificación",
+      "errorMessageTitle": "Mensaje de Error de Envío",
+      "htmlPreviewTitle": "Contenido HTML Enviado"
+    }
+  },
+  "settingsPanel": {
+    "tenantInfoTitle": "Información del Tenant",
+    "generalSectionTitle": "Configuración General y Operativa",
+    "generalSectionDescription": "Parámetros globales que regulan los accesos y capacidades del tenant.",
+    "notificationsSectionTitle": "Comunicaciones y Notificaciones",
+    "notificationsSectionDescription": "Integración de mensajería y alertas para participantes.",
+    "privilegeSectionTitle": "Matriz de Límites por Privilegio de Servicio",
+    "privilegeSectionDescription": "Restricciones operativas de turnos diarios, semanales y mensuales según el privilegio teocrático asignado.",
+    "sisoChecklistSectionTitle": "Checklist de Evaluación Práctica SiSo",
+    "sisoChecklistSectionDescription": "Configura los ítems y criterios prácticos que evaluará el capacitador asignado. Define cuáles ítems son obligatorios.",
+    "addItem": "Agregar Ítem al Checklist",
+    "isRequired": "Obligatorio para Aprobar",
+    "optional": "Opcional",
+    "itemLabelPlaceholder": "Escriba el criterio de evaluación práctica...",
+    "categoryCongregation": "Congregación",
+    "categoryService": "Servicio",
+    "discardChanges": "Descartar Cambios",
+    "saveChanges": "Guardar Cambios",
+    "savingChanges": "Guardando...",
+    "successUpdate": "Configuración guardada exitosamente.",
+    "errorUpdate": "Ocurrió un error al guardar la configuración.",
+    "readOnlyNotice": "Modo solo lectura: Tu rol no tiene permisos para modificar esta configuración."
+  }
+}

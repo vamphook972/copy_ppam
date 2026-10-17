@@ -1,0 +1,51 @@
+{
+  "title": "Centro de Soporte",
+  "subtitle": "¿En qué podemos ayudarte hoy? Encuentra respuestas rápidas a tus dudas o ponte en contacto con nuestro equipo de soporte.",
+  "contact": {
+    "title": "Contacto",
+    "emailTitle": "Correo electrónico",
+    "email": "soporte@appam.co",
+    "responseTime": "Respondemos habitualmente en un plazo de 24 a 48 horas laborales.",
+    "action": "Contactar soporte"
+  },
+  "privacy": {
+    "title": "Privacidad",
+    "description": "Tu privacidad es importante para nosotros. Revisa nuestros términos y políticas para saber cómo gestionamos tus datos.",
+    "privacyPolicy": "Política de Privacidad",
+    "terms": "Términos y Condiciones"
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "login": {
+      "title": "No puedo iniciar sesión",
+      "description": "Verifica que tu correo y contraseña sean correctos. Si el problema persiste, restablece tu contraseña mediante el enlace en la pantalla de inicio de sesión."
+    },
+    "appIssue": {
+      "title": "La aplicación no funciona correctamente",
+      "description": "Asegúrate de contar con una conexión a internet estable y de estar usando una versión actualizada del navegador recomendado."
+    },
+    "reportBug": {
+      "title": "¿Cómo reporto un error?",
+      "description": "Haz clic en el botón de 'Contactar soporte' enviando una descripción detallada del comportamiento fallido junto con la información de tu dispositivo."
+    }
+  },
+  "beforeContact": {
+    "title": "Antes de contactar al soporte",
+    "deviceInfo": {
+      "title": "Información del dispositivo",
+      "description": "Ten a la mano el sistema operativo y navegador desde el cual estás accediendo."
+    },
+    "appInfo": {
+      "title": "Información de la aplicación",
+      "description": "Identifica el módulo o sección específica de la plataforma donde ocurre la eventualidad."
+    },
+    "describeProblem": {
+      "title": "Describe el problema",
+      "description": "Anota los pasos necesarios para reproducir el comportamiento inesperado que experimentas."
+    },
+    "screenshots": {
+      "title": "Capturas de pantalla",
+      "description": "Toma imágenes claras del mensaje de error o fallo visual para adjuntarlas en tu mensaje."
+    }
+  }
+}
